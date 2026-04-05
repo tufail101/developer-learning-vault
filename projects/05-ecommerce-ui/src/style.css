@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff7ed;
+  color: #292524;
+}
+
+.shop-hero,
+.shop-page {
+  width: min(1000px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.shop-hero {
+  padding: 56px 0 24px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.product-card {
+  padding: 20px;
+  border-radius: 18px;
+  background: white;
+}
