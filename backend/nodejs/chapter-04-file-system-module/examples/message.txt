@@ -1,0 +1,1 @@
+Node.js can read files from the backend.
