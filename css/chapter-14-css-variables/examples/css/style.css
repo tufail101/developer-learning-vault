@@ -1,0 +1,18 @@
+:root {
+  --brand: #2563eb;
+  --surface: #ffffff;
+  --bg: #eff6ff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  padding: 32px;
+}
+
+.card {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 20px;
+  border: 2px solid var(--brand);
+}

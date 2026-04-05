@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  padding: 32px;
+}
+
+.card {
+  position: relative;
+  width: 260px;
+  padding: 20px;
+  border-radius: 16px;
+  background: white;
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 8px;
+  background: #dc2626;
+  color: white;
+  border-radius: 999px;
+}
