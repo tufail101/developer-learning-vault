@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Hero</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f8fafc;
+        color: #0f172a;
+      }
+
+      .hero {
+        width: min(1000px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 64px 0;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+
+      .copy,
+      .visual {
+        flex: 1;
+      }
+
+      .visual {
+        min-height: 280px;
+        border-radius: 24px;
+        background: linear-gradient(135deg, #bfdbfe, #60a5fa);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="copy">
+        <p>Flexbox UI</p>
+        <h1>Align hero content with less struggle.</h1>
+        <p>Flexbox is great for sections that mostly flow in one direction.</p>
+      </div>
+      <div class="visual"></div>
+    </section>
+  </body>
+</html>

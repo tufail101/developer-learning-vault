@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(180deg, #fef3c7, #fff7ed);
+        font-family: Arial, sans-serif;
+        color: #292524;
+      }
+
+      .profile-card {
+        width: 320px;
+        padding: 24px;
+        border-radius: 24px;
+        background: white;
+        box-shadow: 0 18px 40px rgba(41, 37, 36, 0.12);
+      }
+
+      .avatar {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        background: #fdba74;
+        margin-bottom: 16px;
+      }
+
+      .tag {
+        display: inline-block;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: #ffedd5;
+        color: #c2410c;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="profile-card">
+      <div class="avatar"></div>
+      <span class="tag">Frontend Learner</span>
+      <h1>Aman Verma</h1>
+      <p>Building clean interface components and learning responsive CSS one step at a time.</p>
+    </article>
+  </body>
+</html>

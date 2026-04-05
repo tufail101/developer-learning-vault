@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar And Feature Grid</title>
+    <style>
+      :root {
+        --bg: #f8fafc;
+        --panel: #ffffff;
+        --ink: #0f172a;
+        --accent: #2563eb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 24px;
+        background: #0f172a;
+        color: white;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 16px;
+      }
+
+      .page {
+        width: min(1040px, calc(100% - 32px));
+        margin: 32px auto;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+      }
+
+      .card {
+        background: var(--panel);
+        border-radius: 18px;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+      }
+
+      .icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+        background: #dbeafe;
+        margin-bottom: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="nav">
+      <strong>Product UI</strong>
+      <nav class="nav-links">
+        <span>Features</span>
+        <span>Pricing</span>
+        <span>Docs</span>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="grid">
+        <article class="card">
+          <div class="icon"></div>
+          <h2>Fast Setup</h2>
+          <p>Use layout tools to build clean UI sections quickly.</p>
+        </article>
+        <article class="card">
+          <div class="icon"></div>
+          <h2>Clear Structure</h2>
+          <p>Flexbox and Grid help interfaces feel more organized.</p>
+        </article>
+        <article class="card">
+          <div class="icon"></div>
+          <h2>Responsive Ready</h2>
+          <p>Good layout decisions make mobile updates much easier later.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

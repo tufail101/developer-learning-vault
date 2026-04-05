@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioned Card</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f8fafc;
+        padding: 32px;
+      }
+
+      .card {
+        position: relative;
+        width: 260px;
+        padding: 20px;
+        border-radius: 16px;
+        background: white;
+      }
+
+      .badge {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        padding: 4px 8px;
+        background: #dc2626;
+        color: white;
+        border-radius: 999px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <span class="badge">New</span>
+      <h1>Position Demo</h1>
+      <p>The badge uses absolute positioning inside a relative card.</p>
+    </div>
+  </body>
+</html>

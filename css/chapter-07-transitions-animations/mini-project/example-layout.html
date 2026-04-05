@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Card Layout</title>
+    <style>
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f8fafc; font-family: Arial, sans-serif; }
+      .card { width: 300px; padding: 24px; border-radius: 22px; background: white; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+      .card:hover { transform: translateY(-6px); box-shadow: 0 18px 30px rgba(15, 23, 42, 0.12); }
+    </style>
+  </head>
+  <body>
+    <article class="card">
+      <h1>Hover Me</h1>
+      <p>Useful motion can make a component feel interactive.</p>
+    </article>
+  </body>
+</html>

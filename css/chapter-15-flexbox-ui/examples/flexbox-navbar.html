@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Navbar</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 24px;
+        background: #0f172a;
+        color: white;
+      }
+
+      .links {
+        display: flex;
+        gap: 18px;
+      }
+
+      .cta {
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: #2563eb;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="nav">
+      <strong>Flex UI</strong>
+      <nav class="links">
+        <span>Features</span>
+        <span>Pricing</span>
+        <span>Docs</span>
+      </nav>
+      <span class="cta">Join</span>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables Demo</title>
+    <style>
+      :root {
+        --brand: #2563eb;
+        --surface: #ffffff;
+        --bg: #eff6ff;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: var(--bg);
+        padding: 32px;
+      }
+
+      .card {
+        background: var(--surface);
+        border-radius: 16px;
+        padding: 20px;
+        border: 2px solid var(--brand);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Variables Demo</h1>
+      <p>Shared values make CSS easier to update.</p>
+    </div>
+  </body>
+</html>
