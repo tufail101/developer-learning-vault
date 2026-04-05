@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 24px;
+}
+
+#gallery {
+  display: flex;
+  gap: 12px;
+}
+
+.image-card,
+.gallery-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.modal {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 16px;
+}
+
+.modal.open {
+  display: block;
+}
