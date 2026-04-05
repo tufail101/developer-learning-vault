@@ -1,31 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Project: Ecommerce UI | Skills: product grid, cart sidebar, state updates, totals, badge counts -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An ecommerce UI project with a product grid, cart sidebar, item count badge, and cart total logic."
+    />
     <title>Ecommerce UI</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="shop-hero">
-      <p>Spring Collection</p>
-      <h1>Minimal essentials for modern desks.</h1>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#">Desk Market</a>
+        <button class="cart-toggle" id="cart-toggle" aria-label="Open cart">
+          Cart <span class="cart-badge" id="cart-count">0</span>
+        </button>
+      </div>
     </header>
-    <main class="shop-page">
-      <section class="products">
-        <article class="product-card">
+
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Spring Collection</p>
+        <h1>Minimal tools for calm, focused workspaces.</h1>
+      </section>
+
+      <section class="product-grid" id="product-grid">
+        <article class="product-card" data-id="1" data-name="Desk Lamp" data-price="39">
+          <div class="product-media">Lamp</div>
           <h2>Desk Lamp</h2>
           <p>$39</p>
+          <button class="add-to-cart">Add to Cart</button>
         </article>
-        <article class="product-card">
-          <h2>Keyboard</h2>
+        <article class="product-card" data-id="2" data-name="Mechanical Keyboard" data-price="79">
+          <div class="product-media">Keyboard</div>
+          <h2>Mechanical Keyboard</h2>
           <p>$79</p>
+          <button class="add-to-cart">Add to Cart</button>
         </article>
-        <article class="product-card">
+        <article class="product-card" data-id="3" data-name="Notebook Set" data-price="19">
+          <div class="product-media">Notes</div>
           <h2>Notebook Set</h2>
           <p>$19</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </article>
+        <article class="product-card" data-id="4" data-name="Monitor Stand" data-price="54">
+          <div class="product-media">Stand</div>
+          <h2>Monitor Stand</h2>
+          <p>$54</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </article>
+        <article class="product-card" data-id="5" data-name="Ceramic Mug" data-price="16">
+          <div class="product-media">Mug</div>
+          <h2>Ceramic Mug</h2>
+          <p>$16</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </article>
+        <article class="product-card" data-id="6" data-name="Wireless Mouse" data-price="44">
+          <div class="product-media">Mouse</div>
+          <h2>Wireless Mouse</h2>
+          <p>$44</p>
+          <button class="add-to-cart">Add to Cart</button>
         </article>
       </section>
     </main>
+
+    <aside class="cart-sidebar" id="cart-sidebar" aria-label="Shopping cart">
+      <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button class="close-cart" id="close-cart" aria-label="Close cart">Close</button>
+      </div>
+      <div class="cart-items" id="cart-items">
+        <p class="empty-state">Your cart is empty.</p>
+      </div>
+      <div class="cart-footer">
+        <p>Total</p>
+        <strong id="cart-total">$0</strong>
+      </div>
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

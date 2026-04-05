@@ -1,25 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Project: Chat UI | Skills: full-height app layout, message rendering, keyboard handling, fake async reply -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A chat UI project with contact list, message bubbles, timestamps, auto-scroll, and fake replies."
+    />
     <title>Chat UI</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="chat-layout">
-      <aside class="chat-list">
-        <div class="chat-preview">Aarav</div>
-        <div class="chat-preview">Maya</div>
+      <aside class="contacts">
+        <h1>Messages</h1>
+        <div class="contact-item active">
+          <span class="avatar">AR</span>
+          <div>
+            <strong>Aarav</strong>
+            <p>Online now</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="avatar">MY</span>
+          <div>
+            <strong>Maya</strong>
+            <p>Last seen 2h ago</p>
+          </div>
+        </div>
       </aside>
+
       <main class="chat-window">
-        <div class="bubble received">Hey, how is your project going?</div>
-        <div class="bubble sent">Pretty well. I just finished the layout.</div>
-        <form class="composer">
-          <input type="text" placeholder="Write a message" />
+        <header class="chat-header">
+          <div class="contact-item compact">
+            <span class="avatar">AR</span>
+            <div>
+              <strong>Aarav</strong>
+              <p>Discussing project ideas</p>
+            </div>
+          </div>
+        </header>
+
+        <section class="messages" id="messages">
+          <article class="message received">
+            <p>Hey, how is the portfolio project going?</p>
+            <time>09:12</time>
+          </article>
+          <article class="message sent">
+            <p>Pretty well. I just finished the responsive sections.</p>
+            <time>09:14</time>
+          </article>
+        </section>
+
+        <form class="composer" id="message-form">
+          <input id="message-input" type="text" placeholder="Write a message..." autocomplete="off" />
           <button type="submit">Send</button>
         </form>
       </main>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

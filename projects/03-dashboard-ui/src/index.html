@@ -1,22 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Project: Dashboard UI | Skills: app layout, sidebar navigation, stats cards, tab state, count-up animation -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A responsive dashboard project with sidebar navigation, stats cards, activity table, and mobile toggle."
+    />
     <title>Dashboard UI</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="layout">
-      <aside class="sidebar">Dashboard</aside>
-      <main class="content">
-        <section class="stats">
-          <div class="stat">Visitors</div>
-          <div class="stat">Sales</div>
-          <div class="stat">Tasks</div>
-        </section>
-        <section class="panel">Recent Activity</section>
-      </main>
+    <div class="dashboard-layout">
+      <aside class="sidebar" id="sidebar">
+        <div>
+          <p class="eyebrow">Dashboard</p>
+          <h1>Control Center</h1>
+        </div>
+        <nav class="sidebar-nav">
+          <button class="tab-link active" data-tab="overview">Overview</button>
+          <button class="tab-link" data-tab="activity">Activity</button>
+          <button class="tab-link" data-tab="reports">Reports</button>
+        </nav>
+      </aside>
+
+      <div class="main-shell">
+        <header class="top-bar">
+          <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle sidebar">
+            Menu
+          </button>
+          <div class="user-chip">
+            <span class="avatar">AN</span>
+            <div>
+              <strong>Ayesha Noor</strong>
+              <p>Product Analyst</p>
+            </div>
+          </div>
+        </header>
+
+        <main class="main-content">
+          <section class="tab-panel active" id="overview">
+            <div class="stats-grid">
+              <article class="stat-card">
+                <p>Visitors</p>
+                <h2 data-target="12540">0</h2>
+              </article>
+              <article class="stat-card">
+                <p>Sales</p>
+                <h2 data-target="3240">0</h2>
+              </article>
+              <article class="stat-card">
+                <p>Tasks</p>
+                <h2 data-target="84">0</h2>
+              </article>
+              <article class="stat-card">
+                <p>Revenue</p>
+                <h2 data-target="48200">0</h2>
+              </article>
+            </div>
+
+            <section class="panel chart-panel">
+              <h3>Growth Chart</h3>
+              <div class="chart-placeholder">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </section>
+          </section>
+
+          <section class="tab-panel" id="activity">
+            <section class="panel">
+              <h3>Recent Activity</h3>
+              <div class="table-wrapper">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>User</th>
+                      <th>Action</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Aarav</td>
+                      <td>Created dashboard widget</td>
+                      <td>Complete</td>
+                    </tr>
+                    <tr>
+                      <td>Maya</td>
+                      <td>Updated analytics filters</td>
+                      <td>Review</td>
+                    </tr>
+                    <tr>
+                      <td>Zara</td>
+                      <td>Exported monthly sales report</td>
+                      <td>Complete</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          </section>
+
+          <section class="tab-panel" id="reports">
+            <section class="panel">
+              <h3>Reports</h3>
+              <p>
+                This placeholder tab demonstrates how dashboard sections can be
+                switched without leaving the page.
+              </p>
+            </section>
+          </section>
+        </main>
+      </div>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

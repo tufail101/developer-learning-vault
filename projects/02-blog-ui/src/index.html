@@ -1,23 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Project: Blog UI | Skills: grid layout, sidebar composition, search filtering, category filtering -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A blog UI project with a featured post, card grid, categories, tags, and live filtering."
+    />
     <title>Blog UI</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <main class="blog">
-      <article class="feature">
-        <span class="tag">Featured</span>
-        <h1>Learning web development slowly is still learning.</h1>
-        <p>Strong basics turn into strong careers.</p>
-      </article>
-      <section class="posts">
-        <article class="post-card">HTML foundations</article>
-        <article class="post-card">CSS layout systems</article>
-        <article class="post-card">JavaScript in the browser</article>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#">Ink & Interface</a>
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">Articles</a>
+          <a href="#">Newsletter</a>
+          <a href="#">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="content">
+        <article class="featured-post">
+          <p class="eyebrow">Featured Post</p>
+          <h1>Designing calm digital spaces is a frontend skill, not an accident.</h1>
+          <p>
+            This featured article shows how a blog interface can feel editorial,
+            readable, and structured without becoming visually noisy.
+          </p>
+        </article>
+
+        <div class="toolbar">
+          <input id="search-input" type="search" placeholder="Search post titles..." />
+        </div>
+
+        <section class="post-grid" id="post-grid">
+          <article class="post-card" data-category="design" data-title="Design systems for quiet interfaces">
+            <span class="post-category">Design</span>
+            <h2>Design systems for quiet interfaces</h2>
+            <p>Why consistency often matters more than visual complexity.</p>
+          </article>
+          <article class="post-card" data-category="javascript" data-title="JavaScript patterns for small interactive ui">
+            <span class="post-category">JavaScript</span>
+            <h2>JavaScript patterns for small interactive UI</h2>
+            <p>Simple event patterns that keep browser code readable.</p>
+          </article>
+          <article class="post-card" data-category="css" data-title="Responsive layouts that still feel intentional">
+            <span class="post-category">CSS</span>
+            <h2>Responsive layouts that still feel intentional</h2>
+            <p>Designing for mobile without turning everything into one generic column.</p>
+          </article>
+          <article class="post-card" data-category="design" data-title="Typographic rhythm in blog cards">
+            <span class="post-category">Design</span>
+            <h2>Typographic rhythm in blog cards</h2>
+            <p>Making text-heavy interfaces easier to scan.</p>
+          </article>
+          <article class="post-card" data-category="javascript" data-title="What the dom is really doing">
+            <span class="post-category">JavaScript</span>
+            <h2>What the DOM is really doing</h2>
+            <p>Understanding browser updates before reaching for a framework.</p>
+          </article>
+          <article class="post-card" data-category="css" data-title="Grid patterns for editorial layouts">
+            <span class="post-category">CSS</span>
+            <h2>Grid patterns for editorial layouts</h2>
+            <p>Using CSS Grid to support content instead of fighting it.</p>
+          </article>
+        </section>
       </section>
+
+      <aside class="sidebar">
+        <section class="sidebar-panel">
+          <h2>Categories</h2>
+          <div class="filter-list" id="category-filters">
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="design">Design</button>
+            <button class="filter-button" data-filter="css">CSS</button>
+            <button class="filter-button" data-filter="javascript">JavaScript</button>
+          </div>
+        </section>
+
+        <section class="sidebar-panel">
+          <h2>Tags</h2>
+          <div class="tag-list">
+            <span class="tag">UI</span>
+            <span class="tag">Accessibility</span>
+            <span class="tag">Components</span>
+            <span class="tag">Performance</span>
+          </div>
+        </section>
+      </aside>
     </main>
+
+    <footer class="site-footer">
+      <p>Built as a frontend blog UI study project.</p>
+    </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
