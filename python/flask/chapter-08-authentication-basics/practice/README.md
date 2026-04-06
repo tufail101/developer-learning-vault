@@ -1,16 +1,21 @@
 # Practice — Authentication Basics
 
 ## Exercise 1
-Create a route that checks whether `user_id` exists in the session.
+Create a `/login` route that sets `session["user_id"] = 1`.
+Return a message like `"Logged in"`.
+Then create a `/whoami` route that says `"You are logged in"` only when that session value exists.
 
 ## Exercise 2
-Redirect unauthenticated users to a login page.
+Create a `/dashboard` route.
+If `user_id` is missing from the session, redirect the user to `/login`.
+If it exists, show `"Welcome to your dashboard"`.
 
 ## Exercise 3
-Show a different message for logged-in and logged-out users.
+Add a `/logout` route that removes `user_id` from the session.
+After logging out, visit `/dashboard` again and make sure you get redirected instead of seeing the private page.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] Visiting `/whoami` changes after I hit `/login`
+- [ ] `/dashboard` redirects when I am logged out
+- [ ] `/dashboard` loads only after the session value exists
+- [ ] `/logout` removes the session marker and blocks dashboard access again
