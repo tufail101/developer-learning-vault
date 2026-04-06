@@ -1,53 +1,122 @@
 # Connecting To A Database Sqlite
 
-## What This Chapter Is About
+Until now, your Flask app could show pages and accept input, but it forgot everything as soon as the request ended. SQLite is the first step toward fixing that. It lets your app save data in a real database file instead of keeping everything in memory for one moment only.
 
-This chapter teaches storing Flask app data in SQLite.
-The goal is to help you understand the shape of the idea before you worry about bigger projects.
+That is the important shift here:
+data can survive after the app stops running.
 
 ## Real-World Analogy
 
-A database is like a notebook that many parts of your app can open and update in a predictable structure.
+Think about the difference between writing a note on your hand and writing it in a notebook.
+The note on your hand disappears quickly.
+The notebook keeps it for later.
 
-## Key Ideas
+SQLite is the notebook.
+Your Flask app can open it, write to it, and read from it again later.
 
-- SQLite is a lightweight database stored in a file.
-- It is great for small apps and learning database basics.
-- Flask apps often use SQLite for simple projects before moving to larger databases.
+## What SQLite Is
 
-## Example
+SQLite is a small database stored in a file.
+You do not need a separate database server running in the background.
+That is why it is a common first database for learning and for small apps.
+
+In Python, you can work with it using the built-in `sqlite3` module.
+
+## The Smallest Database Setup
 
 ```py
 import sqlite3
 
-connection = sqlite3.connect("app.db")
+connection = sqlite3.connect("flask_app.db")
+cursor = connection.cursor()
+
+cursor.execute(
+    "CREATE TABLE IF NOT EXISTS notes (id INTEGER PRIMARY KEY, title TEXT)"
+)
+
+connection.commit()
+connection.close()
 ```
 
-## How To Think About It In Practice
+Here is what each part is doing:
 
-When you are building real things, this idea matters because small pieces need to connect clearly.
-If the basic step is confusing, later chapters feel much heavier than they need to.
-A good habit is to run the example, change one line, and watch what changes.
+- `sqlite3.connect(...)` opens or creates the database file
+- `cursor()` gives you something that can run SQL commands
+- `CREATE TABLE ...` creates the table if it does not already exist
+- `commit()` saves the change
+- `close()` closes the database connection
 
-## Common Mistakes
+If you forget `commit()`, the change may not actually be saved.
+That mistake gets people a lot.
 
-- forgetting to commit changes
-- keeping connections open longer than needed
-- trying to build SQL strings by hand from user input
+## Why This Comes Right After Forms
 
-## Try This Right Away
+In the last chapter, the browser could send data to Flask.
+The obvious next question is:
 
-- Run the example file once before editing it.
-- Change one value or one line of logic.
-- Predict the output before you run it again.
+"Where does that data go if I want to keep it?"
 
-## Why This Matters
+The answer starts here.
+It goes into a database.
 
-You are not learning this just to memorize syntax.
-You are learning it so you can build tools, pages, APIs, and scripts that solve real problems.
-This chapter gives you one more block to build with.
+## Reading And Writing Are Separate Jobs
 
-## Next Step
+Most database work starts with two very simple actions:
 
-Next chapter: **07 Rest Api With Flask**.
-That chapter builds directly on what you practiced here.
+- write one row
+- read rows back
+
+That is enough for a first notes app.
+You do not need advanced database ideas yet.
+You need the basics to feel normal first.
+
+## One Important Safety Rule
+
+Do not build SQL queries by stitching user input directly into strings.
+
+Bad:
+
+```py
+cursor.execute(f"INSERT INTO notes (title) VALUES ('{title}')")
+```
+
+Better:
+
+```py
+cursor.execute("INSERT INTO notes (title) VALUES (?)", (title,))
+```
+
+That second version is safer and cleaner.
+
+## The Mistakes People Make Here
+
+- forgetting `connection.commit()` and wondering why the table or row did not save
+- opening a connection and never closing it
+- mixing up “create the database file” with “create the table inside the database”
+- building SQL strings by hand with user input instead of using query parameters
+- expecting the Flask route to show saved data before they actually inserted any rows
+
+## How To Run It
+
+Run the example like this:
+
+```bash
+python3 example.py
+```
+
+After it runs, you should see a new database file like `flask_app.db` appear.
+That file is the saved database.
+
+## What To Try Right Now
+
+Change the table name from `notes` to `tasks`.
+Run the file again.
+Then look at the new database file behavior and compare it with the first version.
+
+After that, add one `INSERT` statement and one `SELECT` statement in your own practice file.
+That is where SQLite starts feeling useful instead of abstract.
+
+## What Comes After This
+
+The next chapter is **Rest Api With Flask**.
+That is where Flask starts returning database-backed data in a more API-style way instead of only handling pages and forms.

@@ -1,15 +1,16 @@
 # Instructions — Notes Database Setup
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a Flask app file such as `app.py`.
+2. Open or create a SQLite database file.
+3. Create a `notes` table if it does not already exist.
+4. Add one way to insert note data.
+5. Add one route that reads notes back from the database.
+6. Confirm the saved notes still exist after restarting the app.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Get the database file and table creation working first.
+2. Insert one hard-coded note.
+3. Read the notes back with a `SELECT` query.
+4. Connect the read step to a Flask route.
+5. Add the delete stretch goal only after create and read work cleanly.
