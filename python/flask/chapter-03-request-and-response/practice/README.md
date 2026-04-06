@@ -1,16 +1,19 @@
 # Practice — Request And Response
 
 ## Exercise 1
-Create a route that reads `name` from the query string and returns a greeting.
+Create a route that reads `name` from the query string and returns a greeting like `Hello, Ali!`.
+Test it with a URL like `/greet?name=Ali`.
 
 ## Exercise 2
-Return JSON from a route instead of plain text.
+Change the route so it returns JSON instead of plain text.
+For example, return `{"message": "Hello, Ali!"}`.
 
 ## Exercise 3
-Handle the case where the query string is missing and return a default name.
+Handle the case where the query string is missing and return a default name like `friend`.
+Test both `/greet` and `/greet?name=Ali`.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] My route reads the value from the query string, not from hard-coded text
+- [ ] My JSON response has a clear key like `message`
+- [ ] My route still works when `name` is missing
+- [ ] I tested both the missing-value case and the provided-value case in the browser

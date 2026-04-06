@@ -1,15 +1,17 @@
 # Instructions — Greeting API Route
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file named `app.py`.
+2. Set up a Flask app.
+3. Add a route like `/greet`.
+4. Read `name` from `request.args`.
+5. Return a JSON greeting message.
+6. Add a default value when `name` is missing.
+7. Test the route in the browser with and without the query string.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Get the route working first with hard-coded output.
+2. Read the query string value.
+3. Return JSON instead of plain text.
+4. Add the default value for missing input.
+5. Try the POST stretch goal only after the query-string version works.
