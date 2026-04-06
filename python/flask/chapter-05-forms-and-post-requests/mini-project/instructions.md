@@ -1,15 +1,16 @@
 # Instructions — Feedback Form Handler
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a Flask app file such as `app.py`.
+2. Add one route that supports both `GET` and `POST`.
+3. On `GET`, show a small HTML form with `name` and `message` inputs.
+4. On `POST`, read both fields from `request.form`.
+5. If both values are present, return a thank-you message.
+6. If either value is missing, return an error message instead.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Get the `GET` route working first.
+2. Add the HTML form.
+3. Add the `POST` branch.
+4. Read the submitted values from `request.form`.
+5. Add the validation message for blank fields.
