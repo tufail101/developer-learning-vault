@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Shared Theme App
 
-Build a small project that helps you apply the main ideas from Context Api in a more realistic way.
+## What To Build
+Create a React app where theme information is shared across multiple distant components with context.
 
-This mini-project should feel like a tiny piece of a real React task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Store a shared theme value in context
+- Read the value in at least two nested components
+- Let the user switch the theme with one button
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how context api works in practice.
+## What You Must Use
+- `createContext`
+- provider setup
+- `useContext`
+
+## Stretch Goal
+Add a second shared value such as current user name or language choice.

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Typed Settings Page
 
-Build a small project that helps you apply the main ideas from Typescript With React in a more realistic way.
+## What To Build
+Create a small React settings page where props, state, and event handlers all use TypeScript.
 
-This mini-project should feel like a tiny piece of a real TypeScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Render at least two typed child components
+- Store form or UI state with TypeScript types
+- Use a typed change handler for at least one input
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how typescript with react works in practice.
+## What You Must Use
+- typed props
+- typed state
+- typed React event handling
+
+## Stretch Goal
+Add one callback prop typed from parent to child.

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — DOM Explorer Panel
 
-Build a small project that helps you apply the main ideas from Dom Introduction Selecting Elements in a more realistic way.
+## What To Build
+Create a small page with several sections and a script that selects and inspects those elements.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Select one element by ID and another by class
+- Loop through a group of elements selected with `querySelectorAll()`
+- Log or display parent and sibling relationships for one chosen element
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how dom introduction selecting elements works in practice.
+## What You Must Use
+- `getElementById()` or `querySelector()`
+- `querySelectorAll()`
+- basic DOM traversal
+
+## Stretch Goal
+Compare a static NodeList with a live collection by adding a new element after selection.

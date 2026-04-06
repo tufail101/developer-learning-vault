@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Price Total Checker
 
-Build a small project that helps you apply the main ideas from Type Conversion Scope in a more realistic way.
+## What To Build
+Create a small script or page that converts text-based price input into numbers and calculates a total safely.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Start with prices stored as strings
+- Convert them into numbers before doing math
+- Keep the calculation logic inside a function so the local variables stay scoped properly
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how type conversion scope works in practice.
+## What You Must Use
+- explicit type conversion
+- function scope
+- a visible or logged total
+
+## Stretch Goal
+Show a custom message when one of the inputs is not a valid number.

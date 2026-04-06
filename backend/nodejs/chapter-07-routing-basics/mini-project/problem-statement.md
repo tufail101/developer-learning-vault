@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Multi-Page Local Server
 
-Build a small project that helps you apply the main ideas from Routing Basics in a more realistic way.
+## What To Build
+Create a local server with multiple routes that behaves like a tiny website.
 
-This mini-project should feel like a tiny piece of a real Node.js task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Serve a home page response
+- Serve at least two additional route responses such as `/about` and `/contact`
+- Show a custom 404 message for unknown routes
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how routing basics works in practice.
+## What You Must Use
+- route matching
+- different responses per route
+- a fallback 404 response
+
+## Stretch Goal
+Move each route response into a separate helper function for better organization.

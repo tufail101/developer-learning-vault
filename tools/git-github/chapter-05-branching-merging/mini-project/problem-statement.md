@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Feature Branch Workflow
 
-Build a small project that helps you apply the main ideas from Branching Merging in a more realistic way.
+## What To Build
+Create a small repository where one new feature is built on a separate branch and then merged back.
 
-This mini-project should feel like a tiny piece of a real Git and GitHub task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Create a feature branch
+- Make at least one commit on that branch
+- Merge the branch back into `main` and verify the changes are present
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how branching merging works in practice.
+## What You Must Use
+- `git branch`
+- `git switch` or `git checkout`
+- `git merge`
+
+## Stretch Goal
+Create a second short-lived branch after the first merge and repeat the process.

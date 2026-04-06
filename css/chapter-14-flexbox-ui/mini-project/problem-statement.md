@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Flexbox Landing Section
 
-Build a small project that helps you apply the main ideas from Flexbox Ui in a more realistic way.
+## What To Build
+Create a landing section that uses Flexbox for alignment and spacing.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Align text and actions in a clean hero layout
+- Use Flexbox to position content side by side on a wider screen
+- Wrap or stack the content gracefully when the space gets smaller
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how flexbox ui works in practice.
+## What You Must Use
+- Flexbox container properties
+- gap and alignment rules
+- a visible before-and-after layout result
+
+## Stretch Goal
+Add a second Flexbox section such as a navigation bar or stats row.

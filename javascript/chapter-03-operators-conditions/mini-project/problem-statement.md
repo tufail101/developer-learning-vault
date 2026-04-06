@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Grade Checker
 
-Build a small project that helps you apply the main ideas from Operators Conditions in a more realistic way.
+## What To Build
+Create a small webpage or script that checks a score and shows a result message.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Take a score value from a variable or input
+- Show whether the score is a pass or fail
+- Use at least one second condition such as excellent, average, or needs work
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how operators conditions works in practice.
+## What You Must Use
+- comparison operators
+- `if / else if / else`
+- clear output text
+
+## Stretch Goal
+Add a second score and compare which one is higher.

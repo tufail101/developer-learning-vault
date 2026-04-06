@@ -443,9 +443,9 @@ This pattern shows up in apps all the time.
 - nesting too many callbacks in one function
 - writing clever closure code that teammates cannot follow
 
-## How A Senior Dev Thinks About This
+## How This Matters In Practice
 
-A senior developer asks:
+When you are building for real users, ask:
 
 1. What data needs to be remembered later?
 2. Should that data live in a closure,

@@ -1,31 +1,16 @@
-# Practice
+# Practice — Loops And Functions
 
-Use this practice set to turn the Loops Functions lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Use a `for` loop to log the numbers 1 through 10 in the console.
 
-## How To Use This Practice
+## Exercise 2
+Write a function named `greetUser` that accepts a name and returns `Hello, [name]`.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small JavaScript task connected to loops functions. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Create an array of three names and loop through it, calling `greetUser()` for each one.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of loops functions in my own words.
+- I used a `for` loop to log the numbers 1 through 10 in the console
+- I wrote a function named `greetUser` that accepts a name and returns `Hello, [name]`
+- I created an array of three names and loop through it, calling `greetUser()` for each one
+- I tested the final result myself instead of guessing that it works

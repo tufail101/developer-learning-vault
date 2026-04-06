@@ -35,6 +35,6 @@ Validate required fields, shape, and user feedback early. Show errors clearly ne
 
 Prevent the browser's default full-page refresh and handle the data in JavaScript.
 
-## Senior Dev Thinking
+## When This Matters In Practice
 
-Forms are where user intent meets system rules. A senior developer thinks about validation, accessibility, loading states, and error recovery, not just input fields.
+Forms are where user intent meets system rules. Someone working on a real project thinks about validation, accessibility, loading states, and error recovery, not just input fields.

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Article Redesign
 
-Build a small project that helps you apply the main ideas from Typography Colors in a more realistic way.
+## What To Build
+Take a plain article page and improve it with typography and color choices.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Create a readable body text style
+- Use a heading scale that makes the structure clear
+- Apply a small color palette that still keeps good contrast
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how typography colors works in practice.
+## What You Must Use
+- font sizing
+- line-height
+- a background and text color system
+
+## Stretch Goal
+Add a styled pull quote or highlighted note box.

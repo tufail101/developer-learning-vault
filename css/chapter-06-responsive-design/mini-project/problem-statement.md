@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Responsive About Page
 
-Build a small project that helps you apply the main ideas from Responsive Design in a more realistic way.
+## What To Build
+Create a page that looks different on wide and narrow screens without breaking.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use a multi-column layout on a wider screen
+- Switch to a stacked layout on a narrower screen
+- Keep text readable at both sizes
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how responsive design works in practice.
+## What You Must Use
+- responsive layout changes
+- at least one media query
+- manual testing at more than one width
+
+## Stretch Goal
+Adjust spacing or font size inside the media query too, not just layout.

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Working Git Environment Check
 
-Build a small project that helps you apply the main ideas from Git Installation Setup in a more realistic way.
+## What To Build
+Set up Git on your machine and prove it is ready by creating and authoring a real commit.
 
-This mini-project should feel like a tiny piece of a real Git and GitHub task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Verify Git is installed
+- Set username and email
+- Create one commit that shows the correct author information
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how git installation setup works in practice.
+## What You Must Use
+- `git --version`
+- `git config --global`
+- one real repository with one commit
+
+## Stretch Goal
+Write a short checklist file with the commands you used so you can repeat the setup later.

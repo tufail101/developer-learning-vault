@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — First HTTP Server
 
-Build a small project that helps you apply the main ideas from Http Server in a more realistic way.
+## What To Build
+Create a Node.js server that sends a simple HTML response in the browser.
 
-This mini-project should feel like a tiny piece of a real Node.js task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Start a server on a local port
+- Return one HTML page at `/` with a heading and paragraph
+- Return a different message at `/about`
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how http server works in practice.
+## What You Must Use
+- the `http` module
+- route checks with `req.url`
+- responses written with `res.writeHead()` or the chapter equivalent
+
+## Stretch Goal
+Add a third route that returns JSON instead of HTML.

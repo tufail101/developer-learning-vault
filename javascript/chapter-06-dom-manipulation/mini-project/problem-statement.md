@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Interactive Message Board
 
-Build a small project that helps you apply the main ideas from Dom Manipulation in a more realistic way.
+## What To Build
+Create a webpage where buttons change the text and style of messages on screen.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Display a message area on the page
+- Use one button to change the message text
+- Use another button to change a class or style so the page visibly reacts
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how dom manipulation works in practice.
+## What You Must Use
+- DOM selection
+- text updates
+- class or style changes
+
+## Stretch Goal
+Create a new message element dynamically instead of only changing an existing one.

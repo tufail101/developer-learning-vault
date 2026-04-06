@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Notes File Manager
 
-Build a small project that helps you apply the main ideas from File System Module in a more realistic way.
+## What To Build
+Create a small Node.js script that creates, reads, and updates a text notes file.
 
-This mini-project should feel like a tiny piece of a real Node.js task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Create a file if it does not exist yet
+- Write at least one note into the file
+- Read the file and print the full contents back to the terminal
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how file system module works in practice.
+## What You Must Use
+- the `fs` module
+- file writing
+- file reading
+
+## Stretch Goal
+Append a timestamped second note instead of replacing the whole file.

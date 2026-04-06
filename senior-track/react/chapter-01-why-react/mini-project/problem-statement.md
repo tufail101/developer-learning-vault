@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Component-Based Landing Page
 
-Build a small project that helps you apply the main ideas from Why React in a more realistic way.
+## What To Build
+Create a small landing page in React by breaking the interface into reusable components.
 
-This mini-project should feel like a tiny piece of a real React task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Render a page with at least four sections
+- Split the sections into separate components
+- Keep the page readable from the top-level `App` component
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how why react works in practice.
+## What You Must Use
+- React components
+- JSX
+- clear component structure
+
+## Stretch Goal
+Add one reusable button component used in more than one section.

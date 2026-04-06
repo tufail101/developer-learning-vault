@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — CSS Refactor Pass
 
-Build a small project that helps you apply the main ideas from Best Practices in a more realistic way.
+## What To Build
+Take a small existing page and improve the CSS structure so it is easier to read and reuse.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Group related rules together
+- Remove repeated values where possible
+- Use clearer naming and cleaner spacing in the stylesheet
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how best practices works in practice.
+## What You Must Use
+- organized CSS
+- reduced repetition
+- more readable selectors
+
+## Stretch Goal
+Replace repeated colors and spacing values with CSS variables.

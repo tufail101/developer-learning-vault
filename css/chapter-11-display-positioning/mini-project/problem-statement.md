@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Notification Badge Layout
 
-Build a small project that helps you apply the main ideas from Display Positioning in a more realistic way.
+## What To Build
+Create a card or icon layout with a badge positioned in a corner.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use one positioned parent element
+- Place a badge with absolute positioning
+- Keep the badge in the correct corner when the page loads
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how display positioning works in practice.
+## What You Must Use
+- `position: relative`
+- `position: absolute`
+- clear visual placement
+
+## Stretch Goal
+Add a fixed help button that stays visible while the page scrolls.

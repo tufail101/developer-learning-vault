@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Script-Driven Starter Project
 
-Build a small project that helps you apply the main ideas from Npm Package Json in a more realistic way.
+## What To Build
+Set up a small Node.js project with a useful `package.json` and runnable npm scripts.
 
-This mini-project should feel like a tiny piece of a real Node.js task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Include a valid `package.json` file
+- Add at least a `start` script and one extra custom script
+- Run the scripts successfully from the terminal
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how npm package json works in practice.
+## What You Must Use
+- `npm init` or an equivalent package file
+- custom npm scripts
+- one installed dependency or dev dependency
+
+## Stretch Goal
+Add a README that explains what each npm script does and note that Express is the next backend step.

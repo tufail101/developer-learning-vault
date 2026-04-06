@@ -1,31 +1,16 @@
-# Practice
+# Practice — How Node.js Works
 
-Use this practice set to turn the How Node Works lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Write a script that logs `start`, then uses `setTimeout` to log `timer done`, then logs `end`. Run it and notice the output order.
 
-## How To Use This Practice
+## Exercise 2
+Add a second `setTimeout` with a different delay. Predict the order before you run the file, then check your guess.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small Node.js task connected to how node works. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Create a script with one regular function call and one timer callback. Add logs so you can explain which part runs immediately and which part waits.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of how node works in my own words.
+- I wrote a script that logs `start`, then uses `setTimeout` to log `timer done`, then logs `end`. Run it and notice the output order
+- I added a second `setTimeout` with a different delay. Predict the order before you run the file, then check your guess
+- I created a script with one regular function call and one timer callback. Add logs so you can explain which part runs immediately and which part waits
+- I tested the final result myself instead of guessing that it works

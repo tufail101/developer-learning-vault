@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Study Planner Page
 
-Build a small project that helps you apply the main ideas from Lists Tables in a more realistic way.
+## What To Build
+Create a page that uses both lists and a table to organize learning tasks.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Show one unordered or ordered list of goals
+- Show one table for a weekly study schedule
+- Keep the content easy to scan in the browser
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how lists tables works in practice.
+## What You Must Use
+- a list
+- a table with rows and headings
+- clear page headings
+
+## Stretch Goal
+Add a second table for monthly goals or review sessions.

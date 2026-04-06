@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Reusable Card Set
 
-Build a small project that helps you apply the main ideas from Components in a more realistic way.
+## What To Build
+Create a small set of reusable UI components that share a consistent visual style.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Include at least one button style and one card style
+- Reuse the same classes across multiple pieces of content
+- Keep the design visually consistent
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how components works in practice.
+## What You Must Use
+- reusable classes
+- component thinking in CSS
+- consistent spacing and typography
+
+## Stretch Goal
+Create a modifier class such as `button--secondary` or `card--featured`.

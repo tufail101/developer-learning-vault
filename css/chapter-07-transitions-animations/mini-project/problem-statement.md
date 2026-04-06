@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Interactive Feature Cards
 
-Build a small project that helps you apply the main ideas from Transitions Animations in a more realistic way.
+## What To Build
+Create a small feature section where cards or buttons feel more alive with motion.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use at least one hover transition
+- Use one keyframe animation or entrance effect
+- Keep the motion clear without becoming distracting
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how transitions animations works in practice.
+## What You Must Use
+- `transition`
+- one `transform` or opacity change
+- one `@keyframes` or similar motion pattern
+
+## Stretch Goal
+Add staggered animation delays to multiple cards.

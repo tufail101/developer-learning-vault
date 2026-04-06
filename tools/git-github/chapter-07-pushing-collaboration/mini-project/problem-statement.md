@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Local To GitHub Push Flow
 
-Build a small project that helps you apply the main ideas from Pushing Collaboration in a more realistic way.
+## What To Build
+Take a local repository and publish it to GitHub so the code exists in both places.
 
-This mini-project should feel like a tiny piece of a real Git and GitHub task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Create a remote GitHub repository
+- Connect it to the local repository
+- Push local commits and verify they appear online
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how pushing collaboration works in practice.
+## What You Must Use
+- `git remote add`
+- `git push`
+- a repository visible on GitHub
+
+## Stretch Goal
+Make one more local commit and push again so you can practice the repeatable flow.

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Contact Form Preview
 
-Build a small project that helps you apply the main ideas from Events Forms in a more realistic way.
+## What To Build
+Create a small form that captures user input and shows the submitted information back on the page.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Prevent the default form refresh
+- Read values from at least two form fields
+- Show a visible preview or confirmation message after submit
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how events forms works in practice.
+## What You Must Use
+- event listeners
+- form handling
+- DOM updates
+
+## Stretch Goal
+Show a simple validation message if one required field is empty.

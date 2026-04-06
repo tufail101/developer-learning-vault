@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Grid Dashboard
 
-Build a small project that helps you apply the main ideas from Grid Ui in a more realistic way.
+## What To Build
+Create a dashboard or gallery layout where CSS Grid controls the page structure.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use Grid for rows and columns
+- Render at least four cards or panels
+- Keep the layout neat and evenly spaced
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how grid ui works in practice.
+## What You Must Use
+- CSS Grid
+- `grid-template-columns`
+- gap and placement rules
+
+## Stretch Goal
+Use `repeat(auto-fit, minmax(...))` to make the grid adapt automatically.

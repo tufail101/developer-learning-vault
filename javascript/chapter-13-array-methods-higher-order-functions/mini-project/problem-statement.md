@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Product Filter And Total
 
-Build a small project that helps you apply the main ideas from Array Methods Higher Order Functions in a more realistic way.
+## What To Build
+Create a script that filters product data and calculates a total from the matching results.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Start with an array of product objects
+- Filter the products by one rule such as in-stock or under a price limit
+- Calculate the total cost of the remaining products
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how array methods higher order functions works in practice.
+## What You Must Use
+- at least one of `.filter()` or `.map()`
+- `.reduce()`
+- clear final output
+
+## Stretch Goal
+Chain multiple array methods together in a readable way.

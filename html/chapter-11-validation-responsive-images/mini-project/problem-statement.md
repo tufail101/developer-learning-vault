@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Responsive Gallery Starter
 
-Build a small project that helps you apply the main ideas from Validation Responsive Images in a more realistic way.
+## What To Build
+Create a small page with images that remain useful and readable on smaller screens.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Show at least two images
+- Use image-related markup that keeps the layout from feeling broken on narrow widths
+- Pass a basic HTML validation check after you finish
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how validation responsive images works in practice.
+## What You Must Use
+- valid HTML
+- meaningful image markup
+- testing at more than one screen width
+
+## Stretch Goal
+Add captions or a short description below each image.

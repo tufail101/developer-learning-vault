@@ -471,9 +471,9 @@ console.log("After request started");
 
 Small logs reveal timing faster than guessing.
 
-## How A Senior Dev Thinks About This
+## How This Matters In Practice
 
-A senior developer asks:
+When you are building a real app, ask:
 
 1. Which work is synchronous?
 2. Which work is handled by the browser or runtime?

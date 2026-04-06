@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Simple Multi-Section Layout
 
-Build a small project that helps you apply the main ideas from Page Structure in a more realistic way.
+## What To Build
+Create a page that looks like the structure of a real website before any CSS is added.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Include a header, main section, and footer
+- Split the main area into at least two sections
+- Make the purpose of each section clear from the HTML alone
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how page structure works in practice.
+## What You Must Use
+- structural HTML tags
+- clear heading hierarchy
+- logical section order
+
+## Stretch Goal
+Add a small sidebar or aside for related content.

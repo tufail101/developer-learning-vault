@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Signup Form
 
-Build a small project that helps you apply the main ideas from Forms In React in a more realistic way.
+## What To Build
+Create a React signup form that validates user input and shows feedback clearly.
 
-This mini-project should feel like a tiny piece of a real React task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Control the form fields with React state
+- Show at least one validation message when input is invalid
+- Show a success message after a valid submit
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how forms in react works in practice.
+## What You Must Use
+- controlled inputs
+- submit handling
+- clear validation feedback
+
+## Stretch Goal
+Disable the submit button while a fake async submit is running.

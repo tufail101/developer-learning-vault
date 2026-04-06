@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Public Repository Tour
 
-Build a small project that helps you apply the main ideas from Github Introduction in a more realistic way.
+## What To Build
+Create or inspect a GitHub repository so you can identify the main collaboration features.
 
-This mini-project should feel like a tiny piece of a real Git and GitHub task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Visit a repository page
+- Identify the README, commits, and issues sections
+- Write one short note about what each section is useful for
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how github introduction works in practice.
+## What You Must Use
+- a GitHub account or public repository access
+- basic navigation around a repository page
+- written notes about what you found
+
+## Stretch Goal
+Star one repository you may want to study later and explain why you chose it.

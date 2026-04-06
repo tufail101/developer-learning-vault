@@ -383,9 +383,9 @@ This helps animations feel smoother.
 - throttle frequent continuous events
 - use `requestAnimationFrame` for animation updates
 
-## Senior Dev Best Practices
+## Best Practices In Real Projects
 
-Senior developers think about system boundaries.
+When you are building for real users, think about system boundaries.
 
 They ask:
 
@@ -399,7 +399,7 @@ They ask:
 They optimize intentionally,
 not nervously.
 
-## How A Senior Dev Thinks About This
+## How This Matters In Practice
 
 Storage and performance are both about discipline.
 
@@ -409,7 +409,7 @@ does not mean you should store everything.
 Just because an event fires often
 does not mean your code should run fully every time.
 
-The senior mindset is simple:
+One simple way to think about it is:
 
 - persist only what matters
 - update only when needed

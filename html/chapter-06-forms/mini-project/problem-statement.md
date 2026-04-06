@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Contact Form Page
 
-Build a small project that helps you apply the main ideas from Forms in a more realistic way.
+## What To Build
+Create a contact page with a form someone could realistically fill out.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Include name, email, and message fields
+- Use visible labels for every field
+- Add a submit button and useful validation attributes
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how forms works in practice.
+## What You Must Use
+- form structure
+- labels and inputs
+- at least one validation attribute
+
+## Stretch Goal
+Add a select or checkbox field for message type.

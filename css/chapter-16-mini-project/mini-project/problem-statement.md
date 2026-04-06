@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Responsive Landing Section
 
-Build a small project that helps you apply the main ideas from Mini Project in a more realistic way.
+## What To Build
+Create a polished landing section that brings together layout, spacing, color, and responsiveness.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Show a clear headline, supporting text, and at least one call-to-action button
+- Use modern layout tools to organize the section
+- Stay readable and well-spaced on smaller screens
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how mini project works in practice.
+## What You Must Use
+- clean HTML structure
+- modern CSS layout
+- responsive adjustments
+
+## Stretch Goal
+Add a subtle hover or entrance animation without making the layout feel busy.

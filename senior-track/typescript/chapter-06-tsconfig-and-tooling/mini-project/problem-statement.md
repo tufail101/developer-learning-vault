@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Project Config Setup
 
-Build a small project that helps you apply the main ideas from tsconfig And Tooling in a more realistic way.
+## What To Build
+Create a small TypeScript project setup file and document why the main options were chosen.
 
-This mini-project should feel like a tiny piece of a real TypeScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Include a valid `tsconfig.json`
+- Enable `strict` mode
+- Explain at least three compiler options in a short note
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how tsconfig and tooling works in practice.
+## What You Must Use
+- `tsconfig.json`
+- modern compiler options
+- written explanation of your choices
+
+## Stretch Goal
+Add one extra option for a React or Node project and explain why it belongs there.

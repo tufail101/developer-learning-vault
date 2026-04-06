@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Typed Learning Data Model
 
-Build a small project that helps you apply the main ideas from Interfaces Types in a more realistic way.
+## What To Build
+Model a small learning app using interfaces and type aliases.
 
-This mini-project should feel like a tiny piece of a real TypeScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Create interfaces for at least two object shapes
+- Create one union type for status values
+- Build sample data that matches the types correctly
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how interfaces types works in practice.
+## What You Must Use
+- interfaces
+- type aliases
+- optional or readonly properties where they fit
+
+## Stretch Goal
+Add one function that accepts one of your custom types and returns a formatted summary.

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Personal Profile Summary
 
-Build a small project that helps you apply the main ideas from Variables Data Types in a more realistic way.
+## What To Build
+Create a script that stores profile information in variables and shows a short summary on the page.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Store at least five values using different data types
+- Combine the values into readable output
+- Display the final summary in the browser or console
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how variables data types works in practice.
+## What You Must Use
+- variables
+- strings, numbers, and booleans
+- one array or object
+
+## Stretch Goal
+Log the `typeof` result for each value before showing the summary.

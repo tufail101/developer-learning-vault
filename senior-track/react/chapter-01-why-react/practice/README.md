@@ -1,31 +1,16 @@
-# Practice
+# Practice — Why React
 
-Use this practice set to turn the Why React lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Break a simple landing page into at least four component names on paper before writing any code.
 
-## How To Use This Practice
+## Exercise 2
+Create one `Hero` component that returns a heading, paragraph, and button in JSX.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small React task connected to why react. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Build a tiny `App` component that renders your `Hero` and one other component so you can see the page assembled from pieces.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of why react in my own words.
+- I completed: break a simple landing page into at least four component names on paper before writing any code
+- I created one `Hero` component that returns a heading, paragraph, and button in JSX
+- I built a tiny `App` component that renders your `Hero` and one other component so you can see the page assembled from pieces
+- I tested the final result myself instead of guessing that it works

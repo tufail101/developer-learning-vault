@@ -8,7 +8,7 @@ JavaScript sometimes does things for you,
 and if you do not understand the rules,
 the program behaves in surprising ways.
 
-A senior developer learns these rules early
+Someone building real things learns these rules early
 because they affect conditionals,
 form handling,
 data validation,
@@ -598,11 +598,11 @@ ask these questions:
 
 These five questions solve a surprising number of bugs.
 
-## How A Senior Dev Thinks About This
+## How This Matters In Practice
 
-A senior developer does not treat conversion and scope as trivia.
+Someone building real things does not treat conversion and scope as trivia.
 
-They see them as design tools.
+They use them as design tools.
 
 They convert values at system boundaries,
 such as:

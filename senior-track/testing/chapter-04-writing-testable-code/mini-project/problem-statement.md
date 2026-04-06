@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Logic And UI Separation Refactor
 
-Build a small project that helps you apply the main ideas from Writing Testable Code in a more realistic way.
+## What To Build
+Refactor one small feature so the logic is easier to test and the UI wiring stays thin.
 
-This mini-project should feel like a tiny piece of a real testing task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Move repeated logic into a pure function
+- Pass at least one dependency in instead of hardcoding it
+- Keep the DOM or component layer focused on inputs and outputs
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how writing testable code works in practice.
+## What You Must Use
+- pure functions
+- dependency injection or dependency passing
+- clear separation between logic and wiring
+
+## Stretch Goal
+Write one short note about which test became easier after the refactor.

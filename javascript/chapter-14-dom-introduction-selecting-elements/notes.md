@@ -332,9 +332,9 @@ check these things:
 
 These checks solve many beginner DOM bugs.
 
-## How A Senior Dev Thinks About This
+## How This Matters In Practice
 
-A senior developer sees DOM work as tree navigation,
+When you are working on a real interface, DOM work is easier if you see it as tree navigation,
 not random element grabbing.
 
 They think:

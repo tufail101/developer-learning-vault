@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Console Intro Card
 
-Build a small project that helps you apply the main ideas from Introduction in a more realistic way.
+## What To Build
+Create a very small webpage with a linked JavaScript file that introduces you through console output and one visible page change.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Load a script successfully from the page
+- Log at least three introduction messages in the console
+- Change one visible text element on the page with JavaScript
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how introduction works in practice.
+## What You Must Use
+- a linked `.js` file
+- `console.log()`
+- one simple DOM update
+
+## Stretch Goal
+Add one button that logs a new message when clicked.

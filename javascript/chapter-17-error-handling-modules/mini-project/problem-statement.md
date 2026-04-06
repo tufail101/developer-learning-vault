@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Safe Utilities App
 
-Build a small project that helps you apply the main ideas from Error Handling Modules in a more realistic way.
+## What To Build
+Create a small multi-file JavaScript project where one module exports helpers and the main file handles errors clearly.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Split logic into at least two module files
+- Throw an error when invalid input is detected
+- Catch the error in the main file and show a readable fallback message
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how error handling modules works in practice.
+## What You Must Use
+- ES modules with `import` and `export`
+- `try/catch`
+- one intentional `throw new Error()` case
+
+## Stretch Goal
+Create a custom error class for one specific failure case.

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Search-Friendly Article Page
 
-Build a small project that helps you apply the main ideas from Seo Meta Tags in a more realistic way.
+## What To Build
+Create a small article page with metadata that honestly describes the content.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Include a unique title tag
+- Include a useful meta description
+- Include the viewport tag so the page behaves better on mobile
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how seo meta tags works in practice.
+## What You Must Use
+- SEO-related meta tags
+- matching visible content
+- clean document head structure
+
+## Stretch Goal
+Write a second version of the title and description and decide which pair is clearer.

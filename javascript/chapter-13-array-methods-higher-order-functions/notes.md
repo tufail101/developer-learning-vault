@@ -424,9 +424,9 @@ console.log(names);
 Breaking a chain into steps
 makes debugging much easier.
 
-## How A Senior Dev Thinks About This
+## How This Matters In Practice
 
-A senior developer thinks in data transformations.
+When you are building real features, think in data transformations.
 
 They ask:
 

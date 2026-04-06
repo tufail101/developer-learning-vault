@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Test Plan For A Small App
 
-Build a small project that helps you apply the main ideas from Why Testing in a more realistic way.
+## What To Build
+Write a testing plan for a small web app before any test code is written.
 
-This mini-project should feel like a tiny piece of a real testing task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Identify at least three important user flows
+- Match each flow to a sensible test level such as unit, integration, or end-to-end
+- List at least one edge case per flow
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how why testing works in practice.
+## What You Must Use
+- clear test categories
+- user-focused scenarios
+- written reasoning about what matters most
+
+## Stretch Goal
+Explain one thing you would choose not to test directly and why.

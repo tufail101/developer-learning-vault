@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Styled Intro Card
 
-Build a small project that helps you apply the main ideas from Introduction in a more realistic way.
+## What To Build
+Create a small intro card page and use CSS to make it look clearly different from raw HTML.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Change the page background
+- Style one card with spacing, color, and border radius
+- Make the text easier to scan than the browser defaults
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how introduction works in practice.
+## What You Must Use
+- linked CSS file
+- color styles
+- spacing styles
+
+## Stretch Goal
+Add a hover style to one button or link.

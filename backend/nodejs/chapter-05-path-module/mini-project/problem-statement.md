@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Path Inspector
 
-Build a small project that helps you apply the main ideas from Path Module in a more realistic way.
+## What To Build
+Create a script that inspects and prints useful information about a file path.
 
-This mini-project should feel like a tiny piece of a real Node.js task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Print the current file name
+- Print the current directory name
+- Build one safe nested path using `path.join()` and display it
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how path module works in practice.
+## What You Must Use
+- the `path` module
+- `basename`, `dirname`, or `extname`
+- `path.join()`
+
+## Stretch Goal
+Accept a custom file path from `process.argv` and inspect that instead.

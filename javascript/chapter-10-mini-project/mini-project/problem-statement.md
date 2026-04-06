@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Starter To-Do App
 
-Build a small project that helps you apply the main ideas from Mini Project in a more realistic way.
+## What To Build
+Create a small to-do app interface where the user can add tasks and see them appear on the page.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Let the user type a task into an input
+- Add the task to a visible list when a button is clicked
+- Ignore empty task submissions
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how mini project works in practice.
+## What You Must Use
+- DOM selection
+- event handling
+- creating elements dynamically
+
+## Stretch Goal
+Add a remove button for each task.

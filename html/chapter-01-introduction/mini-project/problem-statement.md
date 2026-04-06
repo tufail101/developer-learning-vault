@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Personal Welcome Page
 
-Build a small project that helps you apply the main ideas from Introduction in a more realistic way.
+## What To Build
+Create a simple personal welcome page using only the basic structure of an HTML document.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Show one page title in the browser tab
+- Display your name and a short introduction in the body
+- Use clean document structure from top to bottom
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how introduction works in practice.
+## What You Must Use
+- correct HTML boilerplate
+- head and body sections
+- at least one heading and paragraph
+
+## Stretch Goal
+Add a second section describing what you want to learn this year.

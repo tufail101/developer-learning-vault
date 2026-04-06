@@ -421,9 +421,9 @@ Good structure makes error handling easier.
 - keep module responsibilities narrow
 - prefer predictable import and export patterns across the project
 
-## How A Senior Dev Thinks About This
+## How This Matters In Practice
 
-A senior developer asks:
+When you are working in a team codebase, ask:
 
 1. What failures should be expected here?
 2. Which failures should reach the UI?

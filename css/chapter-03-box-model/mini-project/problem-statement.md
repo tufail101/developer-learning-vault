@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Card Spacing Demo
 
-Build a small project that helps you apply the main ideas from Box Model in a more realistic way.
+## What To Build
+Create a page with several cards that make the box model visible and easy to compare.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Show padding inside the cards
+- Show borders around the cards
+- Use margin to separate the cards clearly
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how box model works in practice.
+## What You Must Use
+- padding
+- border
+- margin
+
+## Stretch Goal
+Compare one card using `box-sizing: border-box` with one card that does not.

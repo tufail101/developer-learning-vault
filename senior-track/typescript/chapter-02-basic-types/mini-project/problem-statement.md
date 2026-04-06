@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Typed Product Data
 
-Build a small project that helps you apply the main ideas from Basic Types in a more realistic way.
+## What To Build
+Create a small typed dataset for products or lessons and print readable summaries from it.
 
-This mini-project should feel like a tiny piece of a real TypeScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use primitive types
+- Use an array type
+- Use one tuple or enum-like structure
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how basic types works in practice.
+## What You Must Use
+- basic TypeScript types
+- typed arrays
+- clear output
+
+## Stretch Goal
+Compare one value typed as `unknown` with one typed as `any` and write down the difference.

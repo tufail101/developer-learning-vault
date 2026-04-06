@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Team Members Grid
 
-Build a small project that helps you apply the main ideas from Components Props in a more realistic way.
+## What To Build
+Create a small team section where one reusable card component renders different people through props.
 
-This mini-project should feel like a tiny piece of a real React task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Render at least four cards
+- Pass different content into each card with props
+- Keep the JSX for the repeated layout inside one reusable component
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how components props works in practice.
+## What You Must Use
+- function components
+- props
+- reusable card layout
+
+## Stretch Goal
+Add an optional prop that highlights one featured team member.

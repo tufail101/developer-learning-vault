@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Routed Learning App Shell
 
-Build a small project that helps you apply the main ideas from React Router Basics in a more realistic way.
+## What To Build
+Create a React app with multiple pages connected through client-side routing.
 
-This mini-project should feel like a tiny piece of a real React task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Include at least three routes
+- Provide navigation links between them
+- Use one dynamic route that reads a parameter from the URL
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how react router basics works in practice.
+## What You Must Use
+- React Router
+- `Link`
+- `useParams` or `useNavigate`
+
+## Stretch Goal
+Add a not-found route for unknown paths.

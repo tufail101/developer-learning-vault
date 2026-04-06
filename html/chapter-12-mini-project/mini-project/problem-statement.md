@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — HTML Portfolio Skeleton
 
-Build a small project that helps you apply the main ideas from Mini Project in a more realistic way.
+## What To Build
+Create a complete HTML-only portfolio skeleton that could be styled later with CSS.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Include a header, hero section, about section, project section, and footer
+- Use semantic HTML throughout
+- Make the page readable even before any CSS is added
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how mini project works in practice.
+## What You Must Use
+- semantic structure
+- clear headings
+- working links or placeholder links with honest labels
+
+## Stretch Goal
+Add a contact form section at the bottom.

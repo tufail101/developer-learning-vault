@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Terminal Welcome Program
 
-Build a small project that helps you apply the main ideas from Introduction in a more realistic way.
+## What To Build
+Create a Node.js script that introduces a learner in the terminal.
 
-This mini-project should feel like a tiny piece of a real Node.js task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- When the file runs, print a short welcome heading
+- Print the learner name, current goal, and one favorite technology on separate lines
+- End with a final line that says the script ran successfully
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how introduction works in practice.
+## What You Must Use
+- Node.js running from the terminal
+- basic variables
+- console output with `console.log()`
+
+## Stretch Goal
+Read one value from `process.argv` so the name can be changed from the command line.

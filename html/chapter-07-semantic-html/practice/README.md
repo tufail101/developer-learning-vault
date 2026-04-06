@@ -1,31 +1,16 @@
-# Practice
+# Practice — Semantic HTML
 
-Use this practice set to turn the Semantic Html lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Take a simple page built with many `div` elements and rewrite it using `header`, `main`, `section`, `article`, and `footer` where they fit.
 
-## How To Use This Practice
+## Exercise 2
+Create a blog post layout using semantic tags only for the major structure.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small HTML task connected to semantic html. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Explain in a short note why each semantic tag you used makes more sense than a plain `div` in that spot.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of semantic html in my own words.
+- I completed: take a simple page built with many `div` elements and rewrite it using `header`, `main`, `section`, `article`, and `footer` where they fit
+- I created a blog post layout using semantic tags only for the major structure
+- I completed: explain in a short note why each semantic tag you used makes more sense than a plain `div` in that spot
+- I tested the final result myself instead of guessing that it works

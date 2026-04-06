@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Saved Notes Widget
 
-Build a small project that helps you apply the main ideas from Storage Performance Basics in a more realistic way.
+## What To Build
+Create a small notes widget that saves user text in the browser and restores it on refresh.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Let the user type a note into a textarea or input
+- Save the note with `localStorage`
+- Load the saved note automatically when the page opens again
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how storage performance basics works in practice.
+## What You Must Use
+- `localStorage`
+- `JSON.stringify()` and `JSON.parse()` if you store structured data
+- one performance helper such as debounce when saving on input
+
+## Stretch Goal
+Show a last-saved message that updates after each successful save.

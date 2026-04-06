@@ -1,31 +1,16 @@
-# Practice
+# Practice — HTML Best Practices
 
-Use this practice set to turn the Best Practices lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Open one of your older HTML files and clean up indentation and nesting so it is easier to read.
 
-## How To Use This Practice
+## Exercise 2
+Check the same file for repeated or missing semantic tags and improve the structure.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small HTML task connected to best practices. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Add one comment at the top describing what the page is and then remove any comments that do not help readability.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of best practices in my own words.
+- I opened one of your older HTML files and clean up indentation and nesting so it is easier to read
+- I completed: check the same file for repeated or missing semantic tags and improve the structure
+- I added one comment at the top describing what the page is and then remove any comments that do not help readability
+- I tested the final result myself instead of guessing that it works

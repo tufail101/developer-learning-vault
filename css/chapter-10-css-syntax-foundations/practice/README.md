@@ -1,31 +1,16 @@
-# Practice
+# Practice — CSS Syntax Foundations
 
-Use this practice set to turn the Css Syntax Foundations lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Write three CSS rules from scratch that target different elements on a page.
 
-## How To Use This Practice
+## Exercise 2
+Add one invalid CSS line on purpose, refresh the page, then fix it so you can see how small syntax mistakes break styles.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small CSS task connected to css syntax foundations. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Create one small section where you use multiple declarations in a single rule, such as color, background, padding, and border-radius.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of css syntax foundations in my own words.
+- I wrote three CSS rules from scratch that target different elements on a page
+- I added one invalid CSS line on purpose, refresh the page, then fix it so you can see how small syntax mistakes break styles
+- I created one small section where you use multiple declarations in a single rule, such as color, background, padding, and border-radius
+- I tested the final result myself instead of guessing that it works

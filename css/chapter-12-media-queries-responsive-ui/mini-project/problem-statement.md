@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Responsive Card Section
 
-Build a small project that helps you apply the main ideas from Media Queries Responsive Ui in a more realistic way.
+## What To Build
+Create a card section that changes layout and spacing at a chosen breakpoint.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Show multiple cards in one row on larger screens
+- Stack the cards or reduce columns on smaller screens
+- Keep card spacing and text readable at each size
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how media queries responsive ui works in practice.
+## What You Must Use
+- media queries
+- responsive layout changes
+- manual testing in the browser
+
+## Stretch Goal
+Add a second breakpoint for a tablet-sized layout.

@@ -1,31 +1,16 @@
-# Practice
+# Practice — Arrays And Objects
 
-Use this practice set to turn the Arrays Objects lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Create an array of five favorite movies and log the first and last item.
 
-## How To Use This Practice
+## Exercise 2
+Add one more movie to the array with `.push()` and remove one with `.pop()`. Log the updated array.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small JavaScript task connected to arrays objects. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Create an object for one product with `name`, `price`, and `inStock` properties, then log a sentence using those values.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of arrays objects in my own words.
+- I created an array of five favorite movies and log the first and last item
+- I added one more movie to the array with `.push()` and remove one with `.pop()`. Log the updated array
+- I created an object for one product with `name`, `price`, and `inStock` properties, then log a sentence using those values
+- I tested the final result myself instead of guessing that it works

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Theme Switchable Section
 
-Build a small project that helps you apply the main ideas from Css Variables in a more realistic way.
+## What To Build
+Create a section whose colors and spacing are controlled by CSS variables.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Define variables in `:root`
+- Use the variables in multiple component rules
+- Show how changing the variables changes the whole section
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how css variables works in practice.
+## What You Must Use
+- CSS variables
+- `var()` usage in several places
+- a visible theme system
+
+## Stretch Goal
+Create two theme classes with different variable values.

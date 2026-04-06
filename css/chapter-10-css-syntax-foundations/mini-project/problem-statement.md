@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Syntax Confidence Demo
 
-Build a small project that helps you apply the main ideas from Css Syntax Foundations in a more realistic way.
+## What To Build
+Create a small page that uses several CSS rules correctly so you can practice syntax without guesswork.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use multiple selectors
+- Use multiple declarations per rule
+- Show at least three visibly different styled elements
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how css syntax foundations works in practice.
+## What You Must Use
+- valid CSS syntax
+- consistent formatting
+- a linked HTML page to test the output
+
+## Stretch Goal
+Add one intentional syntax mistake, spot it, and fix it as part of your own review.

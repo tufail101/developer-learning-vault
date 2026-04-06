@@ -1,31 +1,16 @@
-# Practice
+# Practice — Lists And Tables
 
-Use this practice set to turn the Lists Tables lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Build one unordered list of your top five learning goals.
 
-## How To Use This Practice
+## Exercise 2
+Build one ordered list of steps for opening a project in the browser.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small HTML task connected to lists tables. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Create a small table with at least three rows showing a weekly study plan.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of lists tables in my own words.
+- I built one unordered list of your top five learning goals
+- I built one ordered list of steps for opening a project in the browser
+- I created a small table with at least three rows showing a weekly study plan
+- I tested the final result myself instead of guessing that it works

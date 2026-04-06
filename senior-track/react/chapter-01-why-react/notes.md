@@ -46,10 +46,10 @@ Important differences:
 - data flow is easier to reason about
 - the ecosystem is large and mature
 
-## A Senior Developer Mindset
+## When This Matters In Practice
 
-A senior developer does not ask, "How do I rewrite everything in React?"
-They ask, "What UI patterns, state boundaries, and user flows justify React here?"
+Someone building real things does not ask, "How do I rewrite everything in React?"
+They ask, "What UI patterns, state boundaries, and user flows actually justify React here?"
 
 ## Quick Example
 

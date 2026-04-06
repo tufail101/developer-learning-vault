@@ -1,31 +1,16 @@
-# Practice
+# Practice — Basic Types
 
-Use this practice set to turn the Basic Types lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Declare variables using `string`, `number`, and `boolean` types.
 
-## How To Use This Practice
+## Exercise 2
+Create one typed array and one tuple and log both values.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small TypeScript task connected to basic types. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Compare `any` and `unknown` by trying to use a method on each and noticing which one forces you to be safer.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of basic types in my own words.
+- I completed: declare variables using `string`, `number`, and `boolean` types
+- I created one typed array and one tuple and log both values
+- I completed: compare `any` and `unknown` by trying to use a method on each and noticing which one forces you to be safer
+- I tested the final result myself instead of guessing that it works

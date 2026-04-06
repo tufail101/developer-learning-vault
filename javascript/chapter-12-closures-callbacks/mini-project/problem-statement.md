@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Click Counter With Callback
 
-Build a small project that helps you apply the main ideas from Closures Callbacks in a more realistic way.
+## What To Build
+Create a small page where a counter remembers its value between clicks and triggers a callback after each update.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use a closure to store the current count
+- Increase the count each time the user clicks a button
+- Run a callback that logs or displays the updated count
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how closures callbacks works in practice.
+## What You Must Use
+- one closure
+- one callback function
+- a visible or logged count update
+
+## Stretch Goal
+Add a reset button that creates a fresh counter.

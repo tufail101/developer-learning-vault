@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Data Loader Panel
 
-Build a small project that helps you apply the main ideas from useEffect Lifecycle in a more realistic way.
+## What To Build
+Create a React component that loads data after mount and shows loading, success, and error states.
 
-This mini-project should feel like a tiny piece of a real React task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Start with a loading message
+- Fetch one item or list from a placeholder API inside an effect
+- Show the data after success or an error message after failure
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how useeffect lifecycle works in practice.
+## What You Must Use
+- `useEffect`
+- async data loading
+- conditional rendering for different states
+
+## Stretch Goal
+Add a cleanup or reload behavior to make the data flow easier to test manually.

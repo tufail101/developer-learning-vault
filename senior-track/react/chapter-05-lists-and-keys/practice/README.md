@@ -1,31 +1,16 @@
-# Practice
+# Practice — Lists And Keys
 
-Use this practice set to turn the Lists And Keys lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Render a list of three lessons from an array using `.map()`.
 
-## How To Use This Practice
+## Exercise 2
+Add stable keys to each rendered item and confirm there are no key warnings.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small React task connected to lists and keys. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Add a filter toggle so the page shows only completed items or all items based on a boolean state.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of lists and keys in my own words.
+- I completed: render a list of three lessons from an array using `.map()`
+- I added stable keys to each rendered item and confirm there are no key warnings
+- I added a filter toggle so the page shows only completed items or all items based on a boolean state
+- I tested the final result myself instead of guessing that it works

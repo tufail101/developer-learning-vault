@@ -1,31 +1,16 @@
-# Practice
+# Practice — Forms In React
 
-Use this practice set to turn the Forms In React lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Build a controlled email input and log the current value on submit.
 
-## How To Use This Practice
+## Exercise 2
+Add inline validation so an empty submit shows a message instead of continuing.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small React task connected to forms in react. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Expand the form to include password confirmation and show an error when the passwords do not match.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of forms in react in my own words.
+- I built a controlled email input and log the current value on submit
+- I added inline validation so an empty submit shows a message instead of continuing
+- I completed: expand the form to include password confirmation and show an error when the passwords do not match
+- I tested the final result myself instead of guessing that it works

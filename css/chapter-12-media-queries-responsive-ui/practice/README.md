@@ -1,31 +1,16 @@
-# Practice
+# Practice — Media Queries And Responsive UI
 
-Use this practice set to turn the Media Queries Responsive Ui lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Create a card layout with two or three columns on desktop.
 
-## How To Use This Practice
+## Exercise 2
+Add a media query that changes the layout to one column on small screens.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small CSS task connected to media queries responsive ui. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Adjust font size or spacing inside the same media query so the whole section feels designed for mobile, not just squeezed.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of media queries responsive ui in my own words.
+- I created a card layout with two or three columns on desktop
+- I added a media query that changes the layout to one column on small screens
+- I completed: adjust font size or spacing inside the same media query so the whole section feels designed for mobile, not just squeezed
+- I tested the final result myself instead of guessing that it works

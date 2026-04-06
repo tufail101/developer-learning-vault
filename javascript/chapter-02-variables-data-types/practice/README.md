@@ -1,31 +1,16 @@
-# Practice
+# Practice — Variables And Data Types
 
-Use this practice set to turn the Variables Data Types lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Create variables for your name, age, and whether you like coding. Log each value and its type with `typeof`.
 
-## How To Use This Practice
+## Exercise 2
+Make one string, one number, one boolean, one array, and one object. Log all five to the console.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small JavaScript task connected to variables data types. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Build a short profile sentence using your variables, such as `Asha is 22 and likes coding: true`.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of variables data types in my own words.
+- I created variables for your name, age, and whether you like coding. Log each value and its type with `typeof`
+- I completed: make one string, one number, one boolean, one array, and one object. Log all five to the console
+- I built a short profile sentence using your variables, such as `Asha is 22 and likes coding: true`
+- I tested the final result myself instead of guessing that it works

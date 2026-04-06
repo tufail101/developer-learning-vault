@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Typed Utility Starter
 
-Build a small project that helps you apply the main ideas from Why Typescript in a more realistic way.
+## What To Build
+Take a tiny JavaScript helper file and convert it into TypeScript so mistakes become easier to catch.
 
-This mini-project should feel like a tiny piece of a real TypeScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Add parameter types to every function
+- Add return types where they help readability
+- Run through at least one type error and fix it
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how why typescript works in practice.
+## What You Must Use
+- TypeScript file syntax
+- typed functions
+- a visible before-and-after safety improvement
+
+## Stretch Goal
+Add one object type to describe a repeated data shape.

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Utility Function Test Suite
 
-Build a small project that helps you apply the main ideas from Jest Basics in a more realistic way.
+## What To Build
+Create a small set of helper functions and test them with Jest.
 
-This mini-project should feel like a tiny piece of a real testing task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Group tests with `describe`
+- Write multiple `it` cases for each helper
+- Cover at least one edge case
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how jest basics works in practice.
+## What You Must Use
+- Jest
+- clear assertions with `expect`
+- readable test names
+
+## Stretch Goal
+Use `beforeEach` if your tests share setup data.

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Lesson Summary Generator
 
-Build a small project that helps you apply the main ideas from Modern Javascript in a more realistic way.
+## What To Build
+Create a script that takes lesson data and transforms it into readable summaries using modern JavaScript syntax.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Store lesson data as objects in an array
+- Use destructuring and arrow functions to work with the data
+- Output one summary string per lesson
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how modern javascript works in practice.
+## What You Must Use
+- arrow functions
+- template literals
+- destructuring
+
+## Stretch Goal
+Use `.map()` to generate the summary list in one expression.

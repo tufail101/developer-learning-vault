@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Blog Post Layout
 
-Build a small project that helps you apply the main ideas from Semantic Html in a more realistic way.
+## What To Build
+Create a blog-style page using semantic HTML instead of generic containers everywhere.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use semantic page-level structure
+- Include one article section with a heading and text
+- Include a footer or aside where it makes sense
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how semantic html works in practice.
+## What You Must Use
+- `header`, `main`, `article`, and `footer`
+- clear content structure
+- semantic tags chosen for meaning
+
+## Stretch Goal
+Add a related-links aside section.

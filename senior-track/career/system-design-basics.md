@@ -96,6 +96,6 @@ They want to hear:
 - awareness of bottlenecks
 - reasonable tradeoffs
 
-## A Senior Dev Mindset
+## A Better Way To Approach It
 
-A senior developer does not start with the fanciest architecture. They start with the problem, identify likely bottlenecks, and only add complexity when there is a clear reason.
+Someone building real things does not start with the fanciest architecture. They start with the problem, identify likely bottlenecks, and only add complexity when there is a clear reason.

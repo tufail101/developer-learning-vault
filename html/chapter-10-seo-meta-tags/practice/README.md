@@ -1,31 +1,16 @@
-# Practice
+# Practice — SEO And Meta Tags
 
-Use this practice set to turn the Seo Meta Tags lesson into hands-on repetition instead of passive reading.
+## Exercise 1
+Add a unique `<title>` and a `<meta name="description">` to one practice page.
 
-## How To Use This Practice
+## Exercise 2
+Add the viewport meta tag and confirm the page still opens correctly on a narrow screen.
 
-1. Read the chapter notes once before starting.
-2. Re-run the chapter example and change one small detail so you can see the effect yourself.
-3. Complete the exercises in order, because each one should feel a little harder than the last.
-4. If you get stuck, write down exactly what you expected to happen and what actually happened.
-5. After finishing, explain the concept out loud or in your own notes using plain language.
-
-## Exercises
-
-### Exercise 1
-
-Start with a small HTML task connected to seo meta tags. Keep it simple enough to finish in 10 to 15 minutes.
-
-### Exercise 2
-
-Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
-
-### Exercise 3
-
-Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+## Exercise 3
+Create a small page for a pretend blog post and write a title and description that honestly match the page content.
 
 ## Done Checklist
-
-- I completed all three exercises without copying blindly.
-- I changed at least one example and observed the result.
-- I can explain the main idea of seo meta tags in my own words.
+- I added a unique `<title>` and a `<meta name="description">` to one practice page
+- I added the viewport meta tag and confirm the page still opens correctly on a narrow screen
+- I created a small page for a pretend blog post and write a title and description that honestly match the page content
+- I tested the final result myself instead of guessing that it works

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Simple Product List
 
-Build a small project that helps you apply the main ideas from Arrays Objects in a more realistic way.
+## What To Build
+Create a small product list using an array of objects and show the information clearly.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Store at least three products in an array
+- Each product should have a name, price, and stock status
+- Display or log a readable summary for every product
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how arrays objects works in practice.
+## What You Must Use
+- arrays
+- objects
+- looping through structured data
+
+## Stretch Goal
+Add a total count of how many products are in stock.

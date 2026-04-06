@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Task Filter Board
 
-Build a small project that helps you apply the main ideas from Lists And Keys in a more realistic way.
+## What To Build
+Create a task list app where items render from data and can be filtered by status.
 
-This mini-project should feel like a tiny piece of a real React task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Render tasks from an array with stable keys
+- Show completed and pending task states
+- Filter between all tasks and one subset
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how lists and keys works in practice.
+## What You Must Use
+- list rendering with `.map()`
+- stable keys
+- conditional rendering
+
+## Stretch Goal
+Show a friendly empty state when no tasks match the filter.

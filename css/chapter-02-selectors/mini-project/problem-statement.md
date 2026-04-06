@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Selector Practice Page
 
-Build a small project that helps you apply the main ideas from Selectors in a more realistic way.
+## What To Build
+Create a small page where different CSS selectors style different parts of the interface.
 
-This mini-project should feel like a tiny piece of a real CSS task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use a tag selector, class selector, and ID selector
+- Use a hover or focus state
+- Make the visual differences obvious on screen
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how selectors works in practice.
+## What You Must Use
+- multiple selector types
+- at least one pseudo-class
+- clean HTML hooks
+
+## Stretch Goal
+Add one attribute selector for a form field.

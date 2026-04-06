@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Favorite Things Article
 
-Build a small project that helps you apply the main ideas from Basic Tags in a more realistic way.
+## What To Build
+Create a one-page article about three things you enjoy.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use a main heading and smaller subheadings
+- Include several paragraphs of readable text
+- Use emphasis tags where they make sense
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how basic tags works in practice.
+## What You Must Use
+- headings
+- paragraphs
+- `strong` or `em`
+
+## Stretch Goal
+Add one short quote using `blockquote`.

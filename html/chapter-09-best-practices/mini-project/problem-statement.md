@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Cleaned-Up Landing Page
 
-Build a small project that helps you apply the main ideas from Best Practices in a more realistic way.
+## What To Build
+Take a simple HTML page and improve its structure so it reads cleanly and follows good habits.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use consistent indentation
+- Use semantic tags where they fit
+- Avoid unnecessary wrapper elements
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how best practices works in practice.
+## What You Must Use
+- readable HTML
+- logical nesting
+- clear section purpose
+
+## Stretch Goal
+Run the file through a validator and fix any issue you find.

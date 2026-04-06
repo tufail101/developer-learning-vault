@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Daily Git Workflow Simulation
 
-Build a small project that helps you apply the main ideas from Git Workflow Basic Commands in a more realistic way.
+## What To Build
+Simulate a small day of work using the normal Git flow from edit to commit.
 
-This mini-project should feel like a tiny piece of a real Git and GitHub task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Create one project file and edit it at least twice
+- Use `git status` before and after staging
+- Make at least two commits with useful messages
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how git workflow basic commands works in practice.
+## What You Must Use
+- `git status`
+- `git add`
+- `git commit`
+
+## Stretch Goal
+Add a second file and commit that change separately to keep your history tidy.

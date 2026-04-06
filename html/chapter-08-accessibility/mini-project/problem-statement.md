@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Accessible Info Page
 
-Build a small project that helps you apply the main ideas from Accessibility in a more realistic way.
+## What To Build
+Create an information page that is clearly labeled and easier to use with assistive technology.
 
-This mini-project should feel like a tiny piece of a real HTML task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Use meaningful alt text on all informative images
+- Use labels for any form controls
+- Add at least one `aria-label` only where visible text is not enough
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how accessibility works in practice.
+## What You Must Use
+- semantic HTML
+- accessible labels
+- thoughtful image descriptions
+
+## Stretch Goal
+Review the page by navigating it with only the keyboard.

@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Login Form DOM Test
 
-Build a small project that helps you apply the main ideas from Testing Dom in a more realistic way.
+## What To Build
+Test a simple login form the way a user would interact with it.
 
-This mini-project should feel like a tiny piece of a real testing task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Query form controls with accessible selectors
+- Simulate typing and submission
+- Assert on visible success or error messages
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how testing dom works in practice.
+## What You Must Use
+- `getByRole` or labeled queries
+- user-focused interactions
+- visible output assertions
+
+## Stretch Goal
+Add one async case where a message appears after a short delay.

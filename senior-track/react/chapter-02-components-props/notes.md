@@ -49,9 +49,9 @@ function ProductCard({ title, price }) {
 }
 ```
 
-## Senior Dev Thinking
+## When This Matters In Practice
 
-Good props form a clean API for a component. A senior developer asks whether the component is easy to use correctly and hard to misuse.
+Good props form a clean API for a component. Someone working on a real project asks whether the component is easy to use correctly and hard to misuse.
 
 ## Best Practices
 

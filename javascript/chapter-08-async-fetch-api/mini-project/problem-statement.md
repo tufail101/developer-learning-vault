@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — API Post Viewer
 
-Build a small project that helps you apply the main ideas from Async Fetch Api in a more realistic way.
+## What To Build
+Create a small webpage that fetches data from a public API and renders it on screen.
 
-This mini-project should feel like a tiny piece of a real JavaScript task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Fetch one or more posts from `https://jsonplaceholder.typicode.com/posts?_limit=5`
+- Show a loading message while the request is in progress
+- Replace the loading message with the fetched titles when the request succeeds
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how async fetch api works in practice.
+## What You Must Use
+- `fetch()`
+- promise handling or `async/await`
+- DOM updates for loading and success states
+
+## Stretch Goal
+Show an error message if the request fails.

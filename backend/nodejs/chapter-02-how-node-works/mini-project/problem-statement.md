@@ -1,9 +1,17 @@
-# Problem Statement
+# Mini Project — Timer Order Demo
 
-Build a small project that helps you apply the main ideas from How Node Works in a more realistic way.
+## What To Build
+Create a small script that demonstrates how synchronous code and delayed code run in Node.js.
 
-This mini-project should feel like a tiny piece of a real Node.js task, not just a copy of the notes.
-Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+## What It Should Do
+- Log three messages immediately
+- Run at least two timers with different delays
+- Make the final output order easy to compare in the terminal
 
-As you work, focus on clarity first and polish second.
-The goal is to prove that you understand how how node works works in practice.
+## What You Must Use
+- `setTimeout()`
+- clear console logging
+- an explanation in comments about what runs first and what waits
+
+## Stretch Goal
+Add a tiny promise example and compare its output with the timer logs.

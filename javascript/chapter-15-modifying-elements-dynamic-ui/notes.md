@@ -382,9 +382,9 @@ Good habits:
 - prefer class toggles over many tiny style changes
 - use fragments for bulk inserts
 
-## How A Senior Dev Thinks About This
+## How This Matters In Practice
 
-A senior developer asks:
+When you are building a real interface, ask:
 
 1. Is this content trusted or untrusted?
 2. Am I changing text,
