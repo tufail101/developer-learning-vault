@@ -1,15 +1,16 @@
 # Instructions — Public API Data Fetcher
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file named `data_fetcher.py`.
+2. Import `requests`.
+3. Send one request to the JSONPlaceholder todo endpoint.
+4. Convert the response with `response.json()`.
+5. Print the todo id, title, and completed status in a clean format.
+6. Add `try/except` so the script handles failures cleanly.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Get the request working first.
+2. Print the raw parsed data once so you can inspect it.
+3. Replace that raw output with a cleaner summary.
+4. Add error handling.
+5. Try the menu stretch goal only after the one-endpoint version feels solid.

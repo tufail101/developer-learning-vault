@@ -1,51 +1,109 @@
 # Mini Project Data Fetcher
 
-## What This Chapter Is About
+This chapter is where the module turns into one small usable tool. You already learned how to make a request, how to turn JSON into Python data, and how to read outside content. Now you are putting those pieces together into one script that fetches data and prints only the part a person would actually want to read.
 
-This chapter teaches combining requests, JSON parsing, and light data processing in one tool.
-The goal is to help you understand the shape of the idea before you worry about bigger projects.
+That is a real step forward.
+A lot of beginner scripts stop at “print the whole response.”
+This one should feel a little more intentional than that.
 
 ## Real-World Analogy
 
-This project is like taking a list from one place, sorting out what matters, and then writing the useful parts on a note you can actually use.
+Imagine someone hands you a full delivery invoice.
+You do not usually read every line out loud.
+You pull out the few details that matter right now:
 
-## Key Ideas
+- what was delivered
+- how much it cost
+- whether it arrived
 
-- A small data fetcher usually sends a request, checks the response, parses JSON, and prints or saves the result.
-- Keeping each step separate makes the script easier to debug.
-- A clear output format makes the tool feel useful instead of messy.
+That is what this project does with API data.
+It fetches more than you need, then turns it into a cleaner summary.
 
-## Example
+## What This Project Is Really Practicing
+
+There are four moving parts here:
+
+1. send the request
+2. make sure the request worked
+3. turn the response into Python data
+4. print only the useful parts
+
+That is a very common shape in real scripts.
+You will use this pattern again and again.
+
+## A Small Starting Shape
 
 ```py
-def fetch_data():
-    print("Send request, parse JSON, print result")
+import requests
+
+
+def fetch_todo() -> None:
+    response = requests.get(
+        "https://jsonplaceholder.typicode.com/todos/1",
+        timeout=5,
+    )
+    data = response.json()
+    print(data["title"])
 ```
 
-## How To Think About It In Practice
+That is not the finished version.
+It is just the skeleton.
 
-When you are building real things, this idea matters because small pieces need to connect clearly.
-If the basic step is confusing, later chapters feel much heavier than they need to.
-A good habit is to run the example, change one line, and watch what changes.
+A better version adds:
 
-## Common Mistakes
+- a readable printed summary
+- a failure path
+- clearer separation between fetching and displaying
 
-- printing the entire huge response when you only need one field
-- mixing request logic and display logic together too early
-- not handling network errors
+## What Good Output Looks Like
 
-## Try This Right Away
+This is better:
 
-- Run the example file once before editing it.
-- Change one value or one line of logic.
-- Predict the output before you run it again.
+```text
+Todo 1
+Title: delectus aut autem
+Completed: False
+```
 
-## Why This Matters
+This is worse:
 
-You are not learning this just to memorize syntax.
-You are learning it so you can build tools, pages, APIs, and scripts that solve real problems.
-This chapter gives you one more block to build with.
+```text
+{'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
+```
 
-## Next Step
+The raw dictionary is useful while debugging.
+It is not great as the final user-facing output.
 
-This is the last chapter in this module. After this, review your work and try the mini-project from scratch without peeking too early.
+## The Mistakes People Make Here
+
+- printing the whole response forever instead of choosing the fields that matter
+- mixing fetching, parsing, formatting, and file writing into one messy block
+- forgetting that the request can fail and writing only the happy path
+- building a stretch-goal menu before the one-endpoint version works
+- not checking whether the API returned a list or one object before writing the output code
+
+## A Good Way To Build It
+
+Start with one endpoint.
+One request.
+One clean summary.
+
+Do not add menus, saving, or multiple endpoints until that first version works.
+This kind of project gets confusing fast when you add too much too early.
+
+## Run It Like A Real Script
+
+If your file is named `data_fetcher.py`, run it with:
+
+```bash
+python3 data_fetcher.py
+```
+
+If the request fails in your environment, that is still useful.
+It means your error handling got tested for real.
+
+## What To Do After This
+
+This is the last chapter in the module.
+A good next step is to rebuild the tool from memory in a new file without copying.
+If you can do that, the core ideas from this module are starting to stick.
