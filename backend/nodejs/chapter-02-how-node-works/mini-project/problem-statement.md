@@ -1,3 +1,9 @@
 # Problem Statement
 
-Use a timer to understand how Node.js handles delayed work.
+Build a small project that helps you apply the main ideas from How Node Works in a more realistic way.
+
+This mini-project should feel like a tiny piece of a real Node.js task, not just a copy of the notes.
+Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+
+As you work, focus on clarity first and polish second.
+The goal is to prove that you understand how how node works works in practice.

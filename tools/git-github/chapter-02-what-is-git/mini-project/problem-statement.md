@@ -1,3 +1,9 @@
 # Problem Statement
 
-Before learning more commands, make sure the core Git ideas are clear.
+Build a small project that helps you apply the main ideas from What Is Git in a more realistic way.
+
+This mini-project should feel like a tiny piece of a real Git and GitHub task, not just a copy of the notes.
+Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+
+As you work, focus on clarity first and polish second.
+The goal is to prove that you understand how what is git works in practice.

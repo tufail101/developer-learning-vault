@@ -1,3 +1,9 @@
 # Problem Statement
 
-Create a small command-line tool that reads one file using Node.js.
+Build a small project that helps you apply the main ideas from File System Module in a more realistic way.
+
+This mini-project should feel like a tiny piece of a real Node.js task, not just a copy of the notes.
+Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+
+As you work, focus on clarity first and polish second.
+The goal is to prove that you understand how file system module works in practice.

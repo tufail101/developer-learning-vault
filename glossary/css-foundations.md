@@ -79,7 +79,7 @@ Why this matters:
 CSS variables make themes, design systems, and repeated styles easier to manage. They reduce duplication and make large visual changes much faster.
 
 Learn more:
-[chapter-14-css-variables](../css/chapter-14-css-variables/)
+[chapter-13-css-variables](../css/chapter-13-css-variables/)
 
 ## Media Query (`media-query`)
 
@@ -103,4 +103,4 @@ Why this matters:
 Media queries are one of the main tools for making layouts adapt to phones, tablets, and desktops. They let one codebase respond to different screen sizes instead of building separate pages.
 
 Learn more:
-[chapter-13-media-queries-responsive-ui](../css/chapter-13-media-queries-responsive-ui/)
+[chapter-12-media-queries-responsive-ui](../css/chapter-12-media-queries-responsive-ui/)

@@ -1,22 +1,31 @@
 # Practice
 
-## Exercise 1
+Use this practice set to turn the Basic Tags lesson into hands-on repetition instead of passive reading.
 
-Create a page with:
+## How To Use This Practice
 
-- one `h1`
-- two `h2` headings
-- three paragraphs
+1. Read the chapter notes once before starting.
+2. Re-run the chapter example and change one small detail so you can see the effect yourself.
+3. Complete the exercises in order, because each one should feel a little harder than the last.
+4. If you get stuck, write down exactly what you expected to happen and what actually happened.
+5. After finishing, explain the concept out loud or in your own notes using plain language.
 
-## Exercise 2
+## Exercises
 
-Write a short review of your favorite book, movie, or game using:
+### Exercise 1
 
-- a title
-- a subtitle
-- one important sentence
-- one emphasized word
+Start with a small HTML task connected to basic tags. Keep it simple enough to finish in 10 to 15 minutes.
 
-## Exercise 3
+### Exercise 2
 
-Take a plain paragraph and break it into a better structure using headings and paragraphs.
+Repeat the same idea with a slightly different input, layout, or use case so you are practicing the concept instead of memorizing one answer.
+
+### Exercise 3
+
+Build a tiny real-world example that combines this chapter with something from an earlier lesson.
+
+## Done Checklist
+
+- I completed all three exercises without copying blindly.
+- I changed at least one example and observed the result.
+- I can explain the main idea of basic tags in my own words.

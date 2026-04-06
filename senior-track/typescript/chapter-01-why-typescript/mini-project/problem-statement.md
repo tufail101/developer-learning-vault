@@ -1,3 +1,9 @@
 # Problem Statement
 
-Convert a tiny JavaScript dashboard utility file into TypeScript so the data flow becomes safer and easier to understand.
+Build a small project that helps you apply the main ideas from Why Typescript in a more realistic way.
+
+This mini-project should feel like a tiny piece of a real TypeScript task, not just a copy of the notes.
+Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+
+As you work, focus on clarity first and polish second.
+The goal is to prove that you understand how why typescript works in practice.

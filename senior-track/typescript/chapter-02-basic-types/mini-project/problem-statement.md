@@ -1,3 +1,9 @@
 # Problem Statement
 
-Model a small e-commerce product dataset using TypeScript primitives, arrays, and tuples.
+Build a small project that helps you apply the main ideas from Basic Types in a more realistic way.
+
+This mini-project should feel like a tiny piece of a real TypeScript task, not just a copy of the notes.
+Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+
+As you work, focus on clarity first and polish second.
+The goal is to prove that you understand how basic types works in practice.

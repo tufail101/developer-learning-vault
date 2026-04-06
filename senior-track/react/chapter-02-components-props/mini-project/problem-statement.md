@@ -1,3 +1,9 @@
 # Problem Statement
 
-Build a reusable team members section where each card is rendered from one reusable component and receives its content through props.
+Build a small project that helps you apply the main ideas from Components Props in a more realistic way.
+
+This mini-project should feel like a tiny piece of a real React task, not just a copy of the notes.
+Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+
+As you work, focus on clarity first and polish second.
+The goal is to prove that you understand how components props works in practice.

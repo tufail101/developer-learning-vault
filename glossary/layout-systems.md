@@ -46,7 +46,7 @@ Why this matters:
 Flexbox is perfect for nav bars, card rows, button groups, and vertical stacks. It makes alignment much easier than older layout hacks.
 
 Learn more:
-[chapter-15-flexbox-ui](../css/chapter-15-flexbox-ui/)
+[chapter-14-flexbox-ui](../css/chapter-14-flexbox-ui/)
 
 ## Grid (`grid`)
 
@@ -70,4 +70,4 @@ Why this matters:
 Grid is especially useful for dashboards, galleries, and page-level layouts where both width and height relationships matter. It gives you more structural control than Flexbox for complex layouts.
 
 Learn more:
-[chapter-16-grid-ui](../css/chapter-16-grid-ui/)
+[chapter-15-grid-ui](../css/chapter-15-grid-ui/)

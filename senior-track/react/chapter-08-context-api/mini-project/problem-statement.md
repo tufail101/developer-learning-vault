@@ -1,3 +1,9 @@
 # Problem Statement
 
-Build a dashboard shell where theme and current user data are shared across distant components without prop drilling.
+Build a small project that helps you apply the main ideas from Context Api in a more realistic way.
+
+This mini-project should feel like a tiny piece of a real React task, not just a copy of the notes.
+Use the chapter concepts to make decisions, solve one clear problem, and produce something you could explain to another learner.
+
+As you work, focus on clarity first and polish second.
+The goal is to prove that you understand how context api works in practice.
