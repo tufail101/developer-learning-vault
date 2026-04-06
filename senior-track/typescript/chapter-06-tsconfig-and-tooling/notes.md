@@ -34,6 +34,12 @@ TypeScript works especially well with:
 - modern bundlers
 - editor autocomplete
 
-## Senior Dev Thinking
+## When This Matters In Practice
 
-Compiler options are team agreements. A senior developer uses them to reduce ambiguity and create a more reliable development environment.
+Compiler options are team agreements. Someone working in a team codebase uses them to reduce ambiguity and create a more reliable development environment.
+
+
+## Next Step
+
+Next chapter: **Utility Types**.
+That chapter helps you reshape types without rewriting the same structures over and over.
