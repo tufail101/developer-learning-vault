@@ -17,8 +17,10 @@ The structure is inspired by the shared HTML and JavaScript playlists, but it do
 2. CSS from selectors to responsive layouts
 3. JavaScript from variables to DOM and APIs
 4. Practical UI building through guided projects
-5. Learning habits that help you stay consistent for years
-6. Year 3 professional skills with React, TypeScript, testing, and career prep
+5. Backend learning with Node.js, Express, MongoDB, and MERN
+6. Python basics and Python web development paths
+7. Learning habits that help you stay consistent for years
+8. Year 3 React, TypeScript, testing, and career prep
 
 ## Prerequisites
 
@@ -49,6 +51,7 @@ Helpful but optional:
 - `backend/express/`: Express servers, routing, middleware, and REST APIs
 - `backend/mongodb/`: MongoDB and Mongoose fundamentals
 - `backend/mern-fullstack/`: connecting React, Express, MongoDB, and auth basics
+- `python/`: Python basics, scripting, Flask, and Django introduction
 - `projects/`: polished UI practice projects
 - `resources/`: study strategy, mistakes, challenges
 - `cheatsheets/`: quick revision files
