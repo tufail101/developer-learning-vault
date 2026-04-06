@@ -1,15 +1,16 @@
 # Instructions — First Flask App
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file named `app.py`.
+2. Import `Flask` and create the app with `app = Flask(__name__)`.
+3. Add a homepage route for `/`.
+4. Add a second route for `/about`.
+5. Start the server with `app.run(debug=True)`.
+6. Open the local Flask address in your browser and test both routes.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Get one route working first.
+2. Confirm it loads in the browser.
+3. Add the second route.
+4. Make the two messages clearly different.
+5. Try the HTML stretch goal only after both plain-text routes work.

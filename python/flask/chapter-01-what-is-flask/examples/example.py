@@ -1,4 +1,4 @@
-"""This example shows the smallest Flask app setup."""
+"""This example shows the smallest working Flask app and how to start it."""
 
 from flask import Flask
 
@@ -11,4 +11,6 @@ def home():
 
 
 if __name__ == "__main__":
+    # Run with: python3 example.py
+    # Then open http://127.0.0.1:5000 in your browser.
     app.run(debug=True)

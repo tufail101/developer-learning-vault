@@ -1,53 +1,110 @@
 # What Is Flask
 
-## What This Chapter Is About
+Flask is a Python framework for building web servers. It gives you a simple way to say, "when someone visits this URL, run this Python function and send this response back."
 
-This chapter teaches what Flask is and why people use it to build web apps and APIs in Python.
-The goal is to help you understand the shape of the idea before you worry about bigger projects.
+That is the whole shift here.
+Until now, your Python code mostly printed to the terminal.
+With Flask, your Python code can answer a browser request.
 
 ## Real-World Analogy
 
-Flask is like an empty kitchen you can set up your own way. It gives you the basics without forcing a full house layout on day one.
+Think of a small food stall.
+People walk up to the counter and ask for something.
+The person inside decides what to hand back.
 
-## Key Ideas
+The browser is the customer.
+The URL is the thing they ask for.
+Your Flask code is the person behind the counter deciding what response to send.
 
-- Flask is a lightweight Python web framework.
-- It is often used for APIs, small web apps, and learning server basics.
-- You choose more of the structure yourself than you do in larger frameworks.
+## Why People Use Flask
 
-## Example
+Flask is popular because it starts small.
+You do not need a huge project structure on day one.
+You can make one file, one route, and one response and see it working quickly.
+
+That makes it a good first backend framework.
+
+## Install Flask
+
+If Flask is not installed yet:
+
+```bash
+pip install flask
+```
+
+If you are using a virtual environment, activate it first.
+
+## Your First Flask App
 
 ```py
 from flask import Flask
 
+# Create the Flask app.
 app = Flask(__name__)
+
+
+# When someone visits "/", return this text.
+@app.route("/")
+def home():
+    return "Hello from Flask"
+
+
+# Start the local development server.
+if __name__ == "__main__":
+    app.run(debug=True)
 ```
 
-## How To Think About It In Practice
+Every line matters here:
 
-When you are building real things, this idea matters because small pieces need to connect clearly.
-If the basic step is confusing, later chapters feel much heavier than they need to.
-A good habit is to run the example, change one line, and watch what changes.
+- `app = Flask(__name__)` creates the app
+- `@app.route("/")` connects a URL to a Python function
+- `return "Hello from Flask"` sends text back to the browser
+- `app.run(debug=True)` starts the local server
 
-## Common Mistakes
+## How To Run It
 
-- expecting Flask to work like a frontend library
-- trying to learn every extension before learning routes
-- forgetting that Flask code runs on the server
+Run the file like this:
 
-## Try This Right Away
+```bash
+python3 example.py
+```
 
-- Run the example file once before editing it.
-- Change one value or one line of logic.
-- Predict the output before you run it again.
+Then open the local address Flask prints in the terminal.
+It is usually:
 
-## Why This Matters
+```text
+http://127.0.0.1:5000
+```
 
-You are not learning this just to memorize syntax.
-You are learning it so you can build tools, pages, APIs, and scripts that solve real problems.
-This chapter gives you one more block to build with.
+If you visit that address in your browser, your Python code responds.
+That is the main idea.
 
-## Next Step
+## One Honest Warning
 
-Next chapter: **02 Routes And Views**.
-That chapter builds directly on what you practiced here.
+Flask is simpler than some larger frameworks.
+That does not mean backend work is easy.
+
+You still need to understand routes, requests, responses, and later things like forms, databases, and authentication.
+Flask just gives you a clean place to start.
+
+## The Mistakes People Make Here
+
+- expecting Flask to change the page in the browser the way frontend JavaScript does
+- running the file before installing Flask, then hitting `ModuleNotFoundError`
+- forgetting to visit the local server address in the browser after starting the app
+- editing the function but not saving the file before refreshing the browser
+- seeing `@app.route("/")` and not realizing it means "this function handles the homepage URL"
+
+## What To Try Right Now
+
+Run the example with `python3 example.py`.
+Then change the returned text from `"Hello from Flask"` to your own message.
+Refresh the browser and make sure the new message appears.
+
+After that, add a second route in your own file.
+That is when Flask starts to click.
+
+## What Comes After This
+
+The next chapter is **Routes And Views**.
+That is where you stop thinking of Flask as "one app file" and start thinking in terms of multiple URLs doing different jobs.
