@@ -1,15 +1,16 @@
 # Instructions — Headline Extractor
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file named `headline_extractor.py`.
+2. Add a small HTML string inside the file with several repeated headline elements.
+3. Parse the HTML with BeautifulSoup using `html.parser`.
+4. Select the headline elements with a class like `.headline`.
+5. Print each headline on its own line.
+6. Skip any empty text so your output stays clean.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Get BeautifulSoup parsing the HTML first.
+2. Print the list of matching elements once to confirm your selector works.
+3. Replace that with cleaner text output.
+4. Handle empty text values.
+5. Add the file-saving stretch goal only after the printed output looks right.

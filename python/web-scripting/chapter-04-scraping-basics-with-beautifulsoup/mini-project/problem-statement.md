@@ -1,16 +1,18 @@
 # Mini Project — Headline Extractor
 
 ## What To Build
-Build a script that reads a small HTML string or file and prints each headline it finds.
+Build a Python script that reads a small HTML string and prints each headline it finds.
 
 ## What It Should Do
 - parse HTML with BeautifulSoup
-- select repeated elements
-- print clean text output
+- find every headline element with a selector like `.headline`
+- print each headline on its own line
+- skip empty items instead of printing blank lines
 
 ## What You Must Use
 - BeautifulSoup
-- at least one selector method
+- `html.parser`
+- at least one selector method like `select()` or `find_all()`
 
 ## Stretch Goal
-Save the extracted headlines into a text file.
+Save the extracted headlines into a text file so you can reuse them later.

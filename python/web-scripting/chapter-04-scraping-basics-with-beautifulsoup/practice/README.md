@@ -1,16 +1,20 @@
 # Practice — Scraping Basics With BeautifulSoup
 
 ## Exercise 1
-Parse a short HTML string and print the text of one heading.
+Create a short HTML string with one `<h1>` and one `<p>`.
+Parse it with BeautifulSoup and print only the heading text.
 
 ## Exercise 2
-Select all list items with a class and print them in a loop.
+Create an HTML string with three `<li class="post">` items.
+Use `soup.select(".post")` and print each item in a loop.
 
 ## Exercise 3
-Find a link in HTML and print its `href` attribute.
+Create an HTML string with one `<a>` tag.
+Parse it and print only the `href` value.
+Then print the visible link text too.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] My first script prints only the heading text, not the whole HTML string
+- [ ] My second script finds all three `.post` items, not just the first one
+- [ ] My third script prints both the `href` and the visible link text
+- [ ] I changed one class name once and saw how that affected my selector
