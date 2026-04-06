@@ -42,3 +42,9 @@ This is like practicing the full route after learning individual driving skills.
 - skipping status checks
 - merging unfinished work
 - pushing before understanding the local history
+
+
+## Next Step
+
+Next chapter: **Gitignore And Git Clean**.
+That chapter helps you keep your repository cleaner as your projects grow.
