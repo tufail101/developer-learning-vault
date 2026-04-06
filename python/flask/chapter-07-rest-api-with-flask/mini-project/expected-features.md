@@ -1,7 +1,7 @@
 # Expected Features — Tasks API
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- The app starts with `python3 app.py`
+- `GET /api/tasks` returns a JSON list
+- `GET /api/tasks/<id>` returns one task or a clear not-found response
+- `POST /api/tasks` accepts JSON and returns the created task
+- All API routes return JSON instead of page HTML

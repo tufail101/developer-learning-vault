@@ -1,4 +1,4 @@
-"""This example shows a very small JSON API in Flask."""
+"""This example shows a small Flask route that returns JSON instead of HTML."""
 
 from flask import Flask, jsonify
 
@@ -12,3 +12,9 @@ def get_tasks():
         {"id": 2, "title": "Build one route"},
     ]
     return jsonify(tasks)
+
+
+if __name__ == "__main__":
+    # Run with: python3 example.py
+    # Then open /api/tasks in the browser.
+    app.run(debug=True)
