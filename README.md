@@ -46,6 +46,9 @@ Helpful but optional:
 - `css/`: visual styling and layout curriculum
 - `javascript/`: programming and browser logic curriculum
 - `backend/nodejs/`: backend basics and Node fundamentals
+- `backend/express/`: Express servers, routing, middleware, and REST APIs
+- `backend/mongodb/`: MongoDB and Mongoose fundamentals
+- `backend/mern-fullstack/`: connecting React, Express, MongoDB, and auth basics
 - `projects/`: polished UI practice projects
 - `resources/`: study strategy, mistakes, challenges
 - `cheatsheets/`: quick revision files

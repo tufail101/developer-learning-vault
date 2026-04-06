@@ -53,3 +53,10 @@ Learning npm early helps you work with the wider Node ecosystem.
 - installing packages without understanding them
 - forgetting to save project details clearly
 - not checking available scripts in `package.json`
+
+
+## What Comes Next
+
+Now that you know how npm and `package.json` work, the next backend step is **Express**.
+Express uses npm packages, scripts, and project setup all the time.
+Go next to `backend/express/chapter-01-what-is-express/` and start building API routes there.
