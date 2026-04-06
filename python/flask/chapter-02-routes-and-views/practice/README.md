@@ -4,13 +4,14 @@
 Add three routes to one Flask app: `/`, `/about`, and `/contact`.
 
 ## Exercise 2
-Return different text from each route so you can tell them apart.
+Return different text from each route so you can tell them apart in the browser right away.
 
 ## Exercise 3
-Rename one route to make the URL clearer and test it again.
+Rename one route to make the URL clearer, like changing `/contact-us` to `/contact` or `/info` to `/about`.
+Then test the new URL and confirm the old one no longer works.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] My app has three separate routes
+- [ ] Each route returns different text, so I can tell which one is working
+- [ ] I tested the new route name in the browser after renaming it
+- [ ] I understand that a route path is a URL, not a file name

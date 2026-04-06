@@ -1,15 +1,16 @@
 # Instructions — Personal Site Routes
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file named `app.py`.
+2. Add the Flask app setup.
+3. Create a route for `/`.
+4. Create a route for `/about`.
+5. Create a route for `/projects`.
+6. Run the app and visit all three URLs in the browser.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Get the homepage route working first.
+2. Add the second route and test it.
+3. Add the third route and test it.
+4. Make sure each route returns clearly different text.
+5. Try the dynamic-route stretch goal only after all three fixed routes work.
