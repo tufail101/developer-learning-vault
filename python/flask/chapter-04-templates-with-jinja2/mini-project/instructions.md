@@ -1,15 +1,16 @@
 # Instructions — Simple Template Site
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a Flask app file such as `app.py`.
+2. Create a `templates/` folder.
+3. Add an `index.html` file inside `templates/`.
+4. Create a route that calls `render_template("index.html", ...)`.
+5. Pass one title value and one list from Flask into the template.
+6. Render both the title and the list in HTML.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Get the route working with a plain template first.
+2. Add one template variable like `page_title`.
+3. Add the list and loop through it.
+4. Refresh the browser after each change so you can see the rendered HTML update.
+5. Try the base-template stretch goal only after the first page is working.

@@ -1,53 +1,125 @@
 # Templates With Jinja2
 
-## What This Chapter Is About
+Templates let Flask return real HTML pages without stuffing giant HTML strings inside your Python code. Your route decides what data to send. Jinja2 takes that data and drops it into an HTML file.
 
-This chapter teaches rendering HTML from Flask with template variables and loops.
-The goal is to help you understand the shape of the idea before you worry about bigger projects.
+That split matters.
+Python handles the logic.
+The template handles the page structure.
 
 ## Real-World Analogy
 
-A template is like a fill-in form. The shape stays the same, but the details can change each time.
+Think about a printed invitation card.
+The layout stays the same every time.
+Only a few details change:
 
-## Key Ideas
+- the name
+- the date
+- the place
 
-- Jinja2 templates let you mix HTML with dynamic values.
-- You pass data from Flask into `render_template()`.
-- Templates help keep HTML out of your Python strings.
+That is what a template does.
+The HTML shape stays mostly the same.
+The data changes from request to request.
 
-## Example
+## Why Templates Help
+
+Without templates, you end up writing long HTML strings in Python.
+That gets ugly fast.
+
+This is hard to read:
+
+```py
+return "<h1>Welcome</h1><p>Hello from Flask</p>"
+```
+
+This is much cleaner:
+
+```py
+return render_template("index.html", page_title="Welcome")
+```
+
+The route stays focused on data.
+The HTML stays in an HTML file.
+
+## The Basic Pattern
 
 ```py
 from flask import render_template
 
-return render_template("index.html", name="Mina")
+@app.route("/")
+def home():
+    return render_template("index.html", name="Mina")
 ```
 
-## How To Think About It In Practice
+The important part is this:
 
-When you are building real things, this idea matters because small pieces need to connect clearly.
-If the basic step is confusing, later chapters feel much heavier than they need to.
-A good habit is to run the example, change one line, and watch what changes.
+- `index.html` is your template file
+- `name="Mina"` sends data into that template
 
-## Common Mistakes
+Inside the template, Jinja2 can use that value.
 
-- building long HTML strings directly inside Python
-- forgetting to pass needed data into the template
-- mixing too much business logic into the template file
+For example:
 
-## Try This Right Away
+```html
+<h1>Hello, {{ name }}</h1>
+```
 
-- Run the example file once before editing it.
-- Change one value or one line of logic.
-- Predict the output before you run it again.
+That `{{ name }}` part means:
+"Put the value of `name` here."
 
-## Why This Matters
+## Templates Can Also Loop
 
-You are not learning this just to memorize syntax.
-You are learning it so you can build tools, pages, APIs, and scripts that solve real problems.
-This chapter gives you one more block to build with.
+This is one reason templates are useful so quickly.
 
-## Next Step
+If your route sends a list:
 
-Next chapter: **05 Forms And Post Requests**.
-That chapter builds directly on what you practiced here.
+```py
+return render_template(
+    "index.html",
+    items=["HTML", "CSS", "Python"],
+)
+```
+
+then your template can loop through it:
+
+```html
+<ul>
+  {% for item in items %}
+    <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+```
+
+Now one route can build a page with repeated content without hard-coding every list item by hand.
+
+## The Mistakes People Make Here
+
+- writing a huge HTML string in the route even after templates are available
+- forgetting to create the `templates/` folder or put the HTML file in the right place
+- passing `page_title` from Flask but trying to use `title` in the template
+- putting too much logic into the template instead of keeping it mostly for display
+- changing the Python variable name and forgetting to update the template placeholder
+
+## How To Run It
+
+Run the example like this:
+
+```bash
+python3 example.py
+```
+
+Then open the Flask address in your browser.
+If the template file and route are connected correctly, you should see the rendered page instead of plain text.
+
+## What To Try Right Now
+
+Pass a different `page_title` value from the route.
+Refresh the browser and make sure the page changes.
+
+Then add one more item to the list and confirm the rendered HTML shows the extra list item too.
+
+That is the moment templates usually start making sense.
+
+## What Comes After This
+
+The next chapter is **Forms And Post Requests**.
+That is where your pages stop being only output and start accepting input from the user too.
