@@ -18,6 +18,23 @@ The structure is inspired by the shared HTML and JavaScript playlists, but it do
 3. JavaScript from variables to DOM and APIs
 4. Practical UI building through guided projects
 5. Learning habits that help you stay consistent for years
+6. Year 3 professional skills with React, TypeScript, testing, and career prep
+
+## Prerequisites
+
+You do not need a computer science degree or past coding experience to begin this repo.
+
+Before starting, you should have:
+
+- a web browser
+- a text editor like VS Code
+- willingness to practice consistently, even when progress feels slow
+
+Helpful but optional:
+
+- a GitHub account
+- Node.js for later JavaScript and tooling sections
+- curiosity to break examples and rebuild them
 
 ## Repository Map
 
@@ -28,10 +45,13 @@ The structure is inspired by the shared HTML and JavaScript playlists, but it do
 - `html/`: beginner-friendly HTML curriculum
 - `css/`: visual styling and layout curriculum
 - `javascript/`: programming and browser logic curriculum
+- `backend/nodejs/`: backend basics and Node fundamentals
 - `projects/`: polished UI practice projects
 - `resources/`: study strategy, mistakes, challenges
 - `cheatsheets/`: quick revision files
 - `glossary/`: important words explained simply
+- `tools/git-github/`: version control and collaboration
+- `senior-track/`: Year 3 React, TypeScript, testing, and career material
 
 ## Study Philosophy
 
@@ -51,7 +71,18 @@ If you get stuck, slow down. Confusion is not failure. Confusion is usually the 
 
 - Year 1: HTML, CSS, JavaScript basics, lots of repetition
 - Year 2: DOM, APIs, deeper projects, clean code habits
-- Year 3: portfolio polish, advanced problem solving, interview readiness
+- Year 3: React, TypeScript, testing, portfolio polish, and interview readiness
+
+## Year 3: Senior Track
+
+When you finish the core frontend path, move into [senior-track/](./senior-track/).
+
+This section is split into:
+
+- `react/`: component architecture, state, effects, routing, and context
+- `typescript/`: type safety, generics, React typing, and tooling
+- `testing/`: testing strategy, Jest, DOM testing, and testable design
+- `career/`: interview prep, system design basics, PR review, portfolio, and negotiation
 
 ## Output Goal
 
@@ -62,4 +93,3 @@ By the end of this repository, you should be able to:
 - read and modify existing code
 - create portfolio-grade projects
 - explain your decisions like a professional developer
-# developer-learning-vault
