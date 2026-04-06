@@ -1,54 +1,128 @@
 # Making HTTP Requests With Requests
 
-## What This Chapter Is About
+An HTTP request is your Python script asking another server for something. That "something" might be a web page, JSON data, a file, or an API response. The `requests` library gives you a much nicer way to do that than working with low-level networking code yourself.
 
-This chapter teaches using the `requests` library to fetch data from web services.
-The goal is to help you understand the shape of the idea before you worry about bigger projects.
+If chapter 1 explained where Python fits on the web, this chapter is the first time Python actually reaches out and talks to another machine.
 
 ## Real-World Analogy
 
-An HTTP request is like sending a note to a shop counter asking for information. The response is what the shop worker hands back.
+Think about calling a restaurant to ask if they are still open.
+You ask a question.
+They answer back.
 
-## Key Ideas
+Your request is the phone call.
+The response is what the person tells you.
+The status code is a quick signal about how that conversation went.
 
-- `requests.get()` is a common way to fetch data from a URL.
-- The response object gives you status codes, headers, and body content.
-- Always check whether the request succeeded before assuming the data is usable.
+## First Setup
 
-## Example
+If you have not installed `requests` yet, do that first:
+
+```bash
+pip install requests
+```
+
+If you are using a virtual environment, activate it before installing packages.
+Then run Python files like this:
+
+```bash
+python3 example.py
+```
+
+## The Smallest Useful Request
 
 ```py
 import requests
 
-response = requests.get("https://example.com")
+# Ask the server for one resource.
+response = requests.get("https://jsonplaceholder.typicode.com/todos/1", timeout=5)
+
+# 200 usually means the request worked.
 print(response.status_code)
+
+# The raw text body comes back as a string.
+print(response.text)
 ```
 
-## How To Think About It In Practice
+The two things to notice here are:
 
-When you are building real things, this idea matters because small pieces need to connect clearly.
-If the basic step is confusing, later chapters feel much heavier than they need to.
-A good habit is to run the example, change one line, and watch what changes.
+1. `requests.get(...)` sends the request
+2. the result is a response object, not the final data shape you want yet
 
-## Common Mistakes
+That second part matters.
+Beginners often expect the response to already be a Python dictionary.
+It is not.
+Not yet.
 
-- assuming every request succeeds
-- forgetting timeouts
-- trying to parse data before checking the response status
+## What Comes Back From A Request
 
-## Try This Right Away
+A response object can give you several useful things:
 
-- Run the example file once before editing it.
-- Change one value or one line of logic.
-- Predict the output before you run it again.
+- `response.status_code`
+- `response.text`
+- `response.headers`
+- later, `response.json()` if the response is JSON
 
-## Why This Matters
+You do not need everything every time.
+But you do need to know the response is more than just one string.
 
-You are not learning this just to memorize syntax.
-You are learning it so you can build tools, pages, APIs, and scripts that solve real problems.
-This chapter gives you one more block to build with.
+## Why `timeout=5` Is There
 
-## Next Step
+Without a timeout, your script can sit there waiting much longer than you expect.
+That feels especially confusing when you are new because it looks like Python is doing nothing.
 
-Next chapter: **03 Parsing Json Data**.
-That chapter builds directly on what you practiced here.
+```py
+response = requests.get("https://example.com", timeout=5)
+```
+
+That says:
+"Wait up to 5 seconds. If nothing useful comes back, stop waiting."
+
+## A Safer Starting Pattern
+
+```py
+import requests
+
+try:
+    response = requests.get(
+        "https://jsonplaceholder.typicode.com/todos/1",
+        timeout=5,
+    )
+
+    print("Status:", response.status_code)
+    print("Body:", response.text)
+except requests.RequestException as error:
+    print("The request failed.")
+    print(error)
+```
+
+This is not fancy.
+That is the point.
+It gives you one clean place for the happy path and one clean place for the failure path.
+
+## The Mistakes People Make Here
+
+- forgetting to install `requests` and then wondering why `import requests` fails
+- leaving out `timeout` and thinking the script froze
+- treating `response.text` like it is already parsed JSON
+- assuming `200` is the only status code you will ever see
+- printing the whole response body without first checking whether the request actually worked
+
+## What To Try Right Now
+
+Run the example with:
+
+```bash
+python3 example.py
+```
+
+Then change the URL to a bad one on purpose.
+Watch what changes.
+That one small test teaches more than reading the code three times.
+
+## What Comes After This
+
+The next chapter is **Parsing JSON Data**.
+That is the missing piece after this one.
+First you make the request.
+Then you turn the response body into data your Python code can actually use.

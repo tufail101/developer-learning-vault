@@ -1,16 +1,20 @@
 # Practice — Parsing JSON Data
 
 ## Exercise 1
-Use `json.loads()` to convert a JSON string into a Python dictionary.
+Use `json.loads()` to turn this JSON string into a Python dictionary:
+`{"name": "Amina", "city": "Lahore"}`
+Then print only the `name` value.
 
 ## Exercise 2
-Print one nested value from a JSON object or list.
+Create a JSON string that contains a list, like a user with a `skills` array.
+Parse it and print only the second skill.
 
 ## Exercise 3
-Fetch JSON from an API and print only the title or name field you care about.
+Use `requests.get(...)` on `https://jsonplaceholder.typicode.com/todos/1`, call `response.json()`, and print only the `title` field.
+If the request fails, print a friendly error message instead of crashing.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] I used `json.loads()` on a string, not on a dictionary
+- [ ] I printed one value from a nested JSON structure without printing the whole object only
+- [ ] I used `response.json()` for API data instead of trying to parse `response.text` by hand
+- [ ] I can explain the difference between JSON text and a Python dictionary

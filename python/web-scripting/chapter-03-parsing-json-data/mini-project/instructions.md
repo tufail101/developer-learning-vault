@@ -1,15 +1,16 @@
 # Instructions — Todo JSON Reader
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file named `todo_json_reader.py`.
+2. Import `requests`.
+3. Send one request to the JSONPlaceholder todo endpoint.
+4. Convert the response to Python data with `response.json()`.
+5. Print the `id`, `title`, and `completed` values in one readable sentence.
+6. Add simple error handling so the script prints a message if the request fails.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Get the request working first.
+2. Print the whole parsed JSON once so you can inspect the shape.
+3. Replace that with a cleaner summary sentence.
+4. Add error handling.
+5. Try the five-todo stretch goal only after the first version is working.

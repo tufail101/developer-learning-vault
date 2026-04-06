@@ -1,16 +1,18 @@
 # Practice — Making HTTP Requests With Requests
 
 ## Exercise 1
-Install `requests` and fetch one test URL, then print the status code.
+Install `requests` if needed, then write a script that fetches `https://jsonplaceholder.typicode.com/todos/1` and prints only the status code.
 
 ## Exercise 2
-Fetch JSONPlaceholder todo item 1 and print the raw response text.
+Change the same script so it also prints the raw response body with `response.text`.
+Make sure you add labels like `Status:` and `Body:` so the output is easy to read.
 
 ## Exercise 3
-Add a timeout and print a friendly message if the request fails.
+Wrap the request in `try/except`, add `timeout=5`, and print `The request failed.` if something goes wrong.
+Then break the URL on purpose once so you can see the error path actually run.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] My first script prints a real status code like `200`
+- [ ] My second version prints the response body, not just the URL or object name
+- [ ] My final version uses `timeout=5`
+- [ ] I tested a broken URL once and saw my error message instead of only testing the happy path

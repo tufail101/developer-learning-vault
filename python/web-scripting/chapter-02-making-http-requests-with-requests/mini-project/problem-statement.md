@@ -1,16 +1,18 @@
 # Mini Project — Simple API Fetcher
 
 ## What To Build
-Build a script that fetches data from a public API and prints the result in a readable way.
+Build a Python script that fetches one item from a public API and prints a clean summary in the terminal.
 
 ## What It Should Do
-- send one GET request
-- print the status code
-- print one useful piece of returned data
+- send a `GET` request to `https://jsonplaceholder.typicode.com/todos/1`
+- print the status code first
+- print the raw response body after that
+- show a friendly error message if the request fails
 
 ## What You Must Use
 - `requests.get()`
-- basic error handling
+- `timeout=5`
+- `try/except` with `requests.RequestException`
 
 ## Stretch Goal
-Ask the user for an ID and use it to fetch a different item from the API.
+Ask the user for a todo ID like `2` or `5`, build the URL from that input, and fetch a different item.

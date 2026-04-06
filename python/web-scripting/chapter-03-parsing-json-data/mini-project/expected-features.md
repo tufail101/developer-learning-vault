@@ -1,7 +1,7 @@
 # Expected Features — Todo JSON Reader
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- The script runs with `python3 todo_json_reader.py`
+- It converts the API response with `response.json()`
+- It reads the `id`, `title`, and `completed` values from the parsed data
+- It prints one clean summary sentence instead of a messy raw object dump
+- It handles request failure with a readable message
