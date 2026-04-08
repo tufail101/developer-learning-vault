@@ -1,7 +1,7 @@
 # Expected Features — Daily Task Checker
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the script loops through every task instead of printing each one manually
+- the script uses an `if` statement to choose the message for each task
+- at least three tasks are checked
+- the output clearly shows which tasks are done and which are pending
+- the learner can explain why a loop is better than repeated `print()` lines here

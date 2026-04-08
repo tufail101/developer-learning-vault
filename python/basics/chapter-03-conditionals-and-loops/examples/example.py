@@ -1,4 +1,4 @@
-"""This example combines a condition with a loop."""
+"""This example combines a loop with an if/else decision."""
 
 scores = [55, 72, 91, 48]
 

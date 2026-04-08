@@ -1,16 +1,19 @@
 # Practice — Conditionals And Loops
 
 ## Exercise 1
-Write an `if` statement that prints `Adult` if age is 18 or more and `Minor` otherwise.
+Create a variable called `age`.
+Write an `if` statement that prints `"Adult"` if age is 18 or more and `"Minor"` otherwise.
 
 ## Exercise 2
 Use a `for` loop to print the numbers 1 through 5.
+Do not write five separate `print()` lines.
 
 ## Exercise 3
-Create a list of temperatures and print `warm` or `cool` for each one using a loop and condition together.
+Create a list of temperatures like `[18, 25, 31, 20]`.
+Loop through the list and print `"warm"` for temperatures 25 or higher and `"cool"` for the rest.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] my `if` statement prints different output when I change the age value
+- [ ] my `for` loop prints all five numbers without repeated code
+- [ ] my temperature script uses both a loop and a condition
+- [ ] I understand the difference between `=` and `==`
