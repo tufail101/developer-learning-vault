@@ -1,7 +1,8 @@
-# Expected Features — Project Map
+# Expected Features — Django Site Blueprint
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the blueprint clearly separates project files from app files
+- the `books` app and `accounts` app each have a clear job
+- `manage.py` is explained in plain language
+- `INSTALLED_APPS` is mentioned for app registration
+- the folder tree is easy to scan
+- the writing makes the Django structure feel less confusing, not more

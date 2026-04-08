@@ -1,15 +1,25 @@
-# Instructions — Project Map
+# Instructions — Django Site Blueprint
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file called `bookhub-blueprint.md` or `bookhub-blueprint.txt`.
+2. Write one sentence explaining what the Django project is responsible for.
+3. Add a small folder tree that includes:
+   - `manage.py`
+   - the main project folder
+   - a `books` app
+   - an `accounts` app
+4. Under the folder tree, explain what each app is responsible for.
+5. Add one short note explaining why new apps usually need to be added to `INSTALLED_APPS`.
+6. Add one short note explaining what `manage.py` is used for.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Write the folder tree first.
+2. Label the project-level files second.
+3. Label the app-level files third.
+4. Add the `INSTALLED_APPS` explanation last.
+
+## What To Check Before You Stop
+
+1. Can someone look at your blueprint and tell which files affect the whole site?
+2. Can they tell what belongs to `books` and what belongs to `accounts`?
+3. Did you explain `manage.py` in plain language?

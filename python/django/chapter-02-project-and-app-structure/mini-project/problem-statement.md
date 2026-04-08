@@ -1,16 +1,20 @@
-# Mini Project — Project Map
+# Mini Project — Django Site Blueprint
 
 ## What To Build
-Create a simple folder map or script output that explains a Django project with two apps.
+Create a one-page blueprint for a Django site called `bookhub`.
+This is not a running Django app yet.
+It is a project map that helps you understand where things go before you start coding.
 
 ## What It Should Do
-- show the main project files
-- show two separate apps
-- explain what each part is for
+- show the main project files for `bookhub`
+- include two apps: `books` and `accounts`
+- explain what each app is responsible for
+- explain which files belong to the whole project and which belong to each app
 
 ## What You Must Use
-- project vs app explanation
-- clear structure
+- the terms `project`, `app`, and `INSTALLED_APPS`
+- at least one folder tree or file list
+- one short explanation of what `manage.py` does
 
 ## Stretch Goal
-Add where templates and static files would live too.
+Add where shared templates and static files would probably live.

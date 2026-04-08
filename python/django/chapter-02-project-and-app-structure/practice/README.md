@@ -1,16 +1,30 @@
 # Practice — Project And App Structure
 
 ## Exercise 1
-Write down the difference between a project and an app.
+Write two short definitions:
+
+- what a Django project is
+- what a Django app is
+
+Keep each definition to one or two lines.
 
 ## Exercise 2
-Sketch a project with two apps such as `blog` and `accounts`.
+Draw a simple folder map for a project called `mysite` with two apps: `blog` and `accounts`.
+Include at least these files:
+
+- `manage.py`
+- `settings.py`
+- `urls.py`
+- `models.py`
+- `views.py`
 
 ## Exercise 3
-List the files you expect to see in a new Django app.
+Write a short note answering this question:
+"Why is creating an app folder not enough by itself?"
+Your answer should mention `INSTALLED_APPS`.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] I can explain project vs app without mixing them up
+- [ ] My folder map shows both site-wide files and app-specific files
+- [ ] I know `manage.py` belongs at the project level
+- [ ] I know a new app usually needs to be added to `INSTALLED_APPS`
