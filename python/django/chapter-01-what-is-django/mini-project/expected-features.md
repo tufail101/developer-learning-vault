@@ -1,7 +1,8 @@
-# Expected Features — Framework Choice Notes
+# Expected Features — Django Starter Map
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the file clearly explains what Django is in one plain sentence
+- the setup commands are listed in the correct order
+- the file explains the difference between a Django project and a Django app
+- at least three built-in Django tools are named
+- the Django vs Flask comparison is short and clear
+- the writing sounds like your own notes, not copied documentation

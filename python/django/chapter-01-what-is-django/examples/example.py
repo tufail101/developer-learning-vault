@@ -1,10 +1,21 @@
-"""This example explains Django's role with simple printed output."""
+"""This example reminds you what Django gives you before you write any project code."""
 
-benefits = [
-    "built-in admin",
-    "structured project layout",
-    "ORM for database work",
+django_features = [
+    "routing",
+    "templates",
+    "database models",
+    "admin panel",
 ]
 
-for benefit in benefits:
-    print(benefit)
+print("Django gives you a lot of structure from the start:")
+
+for feature in django_features:
+    print(f"- {feature}")
+
+print("\nCommon setup commands:")
+print("python3 -m venv .venv")
+print("source .venv/bin/activate")
+print("pip install django")
+print("django-admin startproject mysite")
+print("cd mysite")
+print("python3 manage.py runserver")
