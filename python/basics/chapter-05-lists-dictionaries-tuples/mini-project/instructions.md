@@ -1,15 +1,21 @@
 # Instructions — Study Planner Data
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file such as `study_planner.py`.
+2. Add a list of study topics like HTML, CSS, Python, and Django.
+3. Add a dictionary with learner details such as name, city, and goal.
+4. Add a tuple with one fixed pair of values, such as screen size or study hours.
+5. Print each structure in a readable way.
+6. Run the file with `python3 study_planner.py`.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Make the list first.
+2. Add the dictionary second.
+3. Add the tuple third.
+4. Print everything last.
+
+## What To Check Before You Stop
+
+1. Did you use a list for changing items?
+2. Did you use a dictionary for labeled information?
+3. Did you use a tuple for a fixed pair of values?

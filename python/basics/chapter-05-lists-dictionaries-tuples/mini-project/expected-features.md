@@ -1,7 +1,7 @@
 # Expected Features — Study Planner Data
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the script includes one list, one dictionary, and one tuple
+- each structure is used for the kind of data it fits best
+- the script prints the stored data clearly
+- the learner can explain why each structure was chosen
+- the script is small enough to read in one pass without confusion
