@@ -1,15 +1,21 @@
 # Instructions — Tip Calculator Functions
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file such as `tip_calculator.py`.
+2. Write a function called `calculate_tip` that takes a bill amount and tip percentage.
+3. Make that function return the tip amount.
+4. Write a second function called `calculate_total` that returns the final bill after adding the tip.
+5. Call both functions with a sample bill amount.
+6. Print the tip amount and final total in a clear format.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Write the tip function first.
+2. Test it with one bill amount.
+3. Write the total function second.
+4. Print both results last.
+
+## What To Check Before You Stop
+
+1. Did each function do one clear job?
+2. Are you using `return` for calculated values?
+3. Does the final output make sense when you change the bill amount?

@@ -1,7 +1,7 @@
 # Expected Features — Tip Calculator Functions
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the script uses at least two functions
+- the functions take values in through parameters
+- calculated values come back using `return`
+- the final output shows both the tip amount and the total bill
+- the learner can change the numbers and reuse the same functions again
