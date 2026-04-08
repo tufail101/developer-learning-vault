@@ -1,4 +1,4 @@
-"""This example sketches the structure of a small command-line tool."""
+"""This example shows the shape of a tiny CLI tracker with a menu and a sample task list."""
 
 def show_menu():
     print("1. Add note")
@@ -7,8 +7,15 @@ def show_menu():
 
 
 def main():
+    saved_notes = ["Review Python functions", "Practice one file example"]
+
     show_menu()
-    print("Start small, then add one feature at a time.")
+    print("\nSample saved notes:")
+
+    for note in saved_notes:
+        print("-", note)
+
+    print("\nStart small, then add one feature at a time.")
 
 
 if __name__ == "__main__":
