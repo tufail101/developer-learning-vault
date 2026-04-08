@@ -1,7 +1,7 @@
-# Expected Features — Template-Based Homepage
+# Expected Features — Study Topics Homepage
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the page is rendered with a Django template
+- the view uses `render()` instead of returning a long HTML string
+- the template shows the page title and welcome message from context data
+- the topic list is rendered with a loop
+- the view code and HTML layout are clearly separated

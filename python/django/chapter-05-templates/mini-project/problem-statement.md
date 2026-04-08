@@ -1,16 +1,20 @@
-# Mini Project — Template-Based Homepage
+# Mini Project — Study Topics Homepage
 
 ## What To Build
-Build a Django homepage that renders content from a template.
+Build a Django homepage for a study site.
+The page should render from a template, not from a plain text response.
 
 ## What It Should Do
 - show a page title
-- render a short list
-- separate the Python logic from the HTML file
+- show a short welcome message
+- show a list of study topics like HTML, CSS, JavaScript, and Django
+- keep the view code separate from the HTML layout
 
 ## What You Must Use
-- a template file
-- context data from the view
+- a Django template file
+- `render()` in the view
+- context data for the title, message, and topic list
+- a `{% for %}` loop in the template
 
 ## Stretch Goal
-Create a shared base template and extend it from the homepage.
+Create a base template and make the homepage extend it.

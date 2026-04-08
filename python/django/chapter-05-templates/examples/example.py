@@ -1,11 +1,22 @@
-"""This example shows the Python side of rendering a Django template."""
+"""This example shows how view data lines up with template placeholders."""
 
-from django.shortcuts import render
+context = {
+    "title": "Learning Django",
+    "topics": ["models", "views", "templates"],
+}
 
+template_preview = """
+<h1>{{ title }}</h1>
+<ul>
+  {% for topic in topics %}
+    <li>{{ topic }}</li>
+  {% endfor %}
+</ul>
+"""
 
-def home(request):
-    context = {
-        "title": "Learning Django",
-        "topics": ["models", "views", "templates"],
-    }
-    return render(request, "home.html", context)
+print("Context data sent from the view:")
+for key, value in context.items():
+    print(f"- {key}: {value}")
+
+print("\nTemplate preview:")
+print(template_preview.strip())
