@@ -1,16 +1,19 @@
 # Practice — Views And Urls
 
 ## Exercise 1
-Create one view that returns a text response.
+Write a `home` view that returns a plain text response like `"Home page"`.
+Then add a URL pattern that connects `/` to that view.
 
 ## Exercise 2
-Add a URL pattern that points to that view.
+Write an `about` view that returns a different plain text response.
+Add a URL pattern so `/about/` reaches it.
 
 ## Exercise 3
-Create a second page like `/about/` and test both routes.
+Write a `contact` view and connect it to `/contact/`.
+Then write one sentence explaining what breaks if the view exists but the URL pattern does not.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] `/` returns the home response
+- [ ] `/about/` returns a different response from `/`
+- [ ] `/contact/` works only after I add both the view and the URL pattern
+- [ ] I can explain that `urls.py` chooses the view and the view returns the response

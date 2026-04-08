@@ -1,15 +1,21 @@
-# Instructions — Simple Django Pages
+# Instructions — Three-Page Django Site
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create or open a Django app with `views.py` and `urls.py`.
+2. Write a `home` view that returns a short response.
+3. Write an `about` view that returns a different response.
+4. Write a `contact` view that returns a third response.
+5. Add URL patterns for `/`, `/about/`, and `/contact/`.
+6. Run the server and visit each route in the browser.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Build the home route first.
+2. Add the about route second.
+3. Add the contact route third.
+4. Test each route right after adding it.
+
+## What To Check Before You Stop
+
+1. Does each URL point to the correct view?
+2. Does each view return different content?
+3. Can you tell which file controls the route and which file controls the response?

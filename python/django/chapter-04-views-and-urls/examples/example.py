@@ -1,13 +1,12 @@
-"""This example shows a tiny Django view and URL pattern."""
+"""This example shows how a URL pattern points to a view name."""
 
-from django.http import HttpResponse
-from django.urls import path
+route_map = {
+    "/": "home view",
+    "/about/": "about view",
+    "/contact/": "contact view",
+}
 
+print("A Django URL pattern chooses which view handles a request:\n")
 
-def home(request):
-    return HttpResponse("Hello from Django")
-
-
-urlpatterns = [
-    path("", home),
-]
+for url, view_name in route_map.items():
+    print(f"{url} -> {view_name}")

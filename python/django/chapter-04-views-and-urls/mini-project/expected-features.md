@@ -1,7 +1,7 @@
-# Expected Features — Simple Django Pages
+# Expected Features — Three-Page Django Site
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the app has separate `home`, `about`, and `contact` views
+- the URL patterns clearly map each path to the correct view
+- visiting each path returns the expected response
+- the route names are readable and consistent
+- the learner can point to `urls.py` for routing and `views.py` for responses

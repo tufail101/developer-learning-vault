@@ -1,16 +1,19 @@
-# Mini Project — Simple Django Pages
+# Mini Project — Three-Page Django Site
 
 ## What To Build
-Build a tiny Django app with a home page and an about page.
+Build a tiny Django app with three simple pages: home, about, and contact.
 
 ## What It Should Do
-- serve two URLs
-- return different content from each view
-- keep URL patterns easy to read
+- `/` should show a home response
+- `/about/` should show an about response
+- `/contact/` should show a contact response
+- each page should be handled by its own view
+- the URL patterns should be easy to read and match to the correct views
 
 ## What You Must Use
-- views
-- URL configuration
+- a `views.py` file with separate view functions
+- a `urls.py` file with clear `path()` entries
+- plain text responses or very simple HTML responses
 
 ## Stretch Goal
-Add a dynamic URL that shows a category or username.
+Add a dynamic route like `/hello/amir/` that shows the name from the URL.
