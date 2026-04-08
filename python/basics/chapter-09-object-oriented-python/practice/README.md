@@ -2,15 +2,17 @@
 
 ## Exercise 1
 Create a `Car` class with `brand` and `year` attributes.
+Set those values in `__init__`.
 
 ## Exercise 2
-Add a method that returns a sentence describing the car.
+Add a method that returns a sentence describing the car, such as `"Toyota from 2020"`.
 
 ## Exercise 3
-Create two objects from the class and print both descriptions.
+Create two different car objects and print both descriptions.
+Make sure the output is different for each object.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] I used `__init__` to set object data
+- [ ] I used `self` to store and read values on the object
+- [ ] I created more than one object from the same class
+- [ ] I can explain the difference between a class and an object

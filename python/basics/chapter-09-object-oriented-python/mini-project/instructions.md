@@ -1,15 +1,21 @@
 # Instructions — Library Book Class
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file such as `library_books.py`.
+2. Write a `Book` class.
+3. In `__init__`, store the title and author on `self`.
+4. Add a method like `summary()` that returns a readable sentence about the book.
+5. Create at least two book objects with different values.
+6. Print the summary for each object.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Write the class name first.
+2. Add `__init__` second.
+3. Add the summary method third.
+4. Create and print the objects last.
+
+## What To Check Before You Stop
+
+1. Does each object keep its own title and author?
+2. Does the method use `self` correctly?
+3. Can you explain why one class can create multiple objects?

@@ -1,7 +1,8 @@
 # Expected Features — Library Book Class
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the script defines a `Book` class
+- `__init__` stores object data on `self`
+- the class has at least one method
+- the script creates at least two different book objects
+- the output shows that each object holds its own data
+- the learner can explain class vs object in plain language
