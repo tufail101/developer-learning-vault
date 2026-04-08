@@ -1,7 +1,8 @@
-# Expected Features
+# Expected Features — First Express Server
 
-- the main concept from What Is Express is visible in the code
-- the app or script can be tested without guessing what should happen
-- the result is small but complete enough to demonstrate the chapter clearly
-- request, response, or database behavior is easy to follow
-- the code is organized well enough that the next chapter can build on it
+- the project includes Express installed through npm
+- `app.js` creates an Express app with `express()`
+- the server starts with `app.listen(...)`
+- `GET /` returns one message
+- `GET /about` returns a different message
+- the startup message tells the learner which local URL to open

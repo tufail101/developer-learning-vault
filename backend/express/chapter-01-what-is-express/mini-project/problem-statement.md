@@ -11,7 +11,7 @@ Create a tiny Express app that acts like the first draft of a real website backe
 ## What You Must Use
 - installing Express with npm
 - creating an app with `express()`
-- one basic route with `app.get()`
+- at least two basic routes with `app.get()`
 
 ## Stretch Goal
 Add a `/contact` route with a third response.
