@@ -1,7 +1,7 @@
-# Expected Features — First DRF Endpoint
+# Expected Features — First Tasks API Endpoint
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the project has one serializer for task data
+- the project has one API view that returns a JSON response
+- the route returns at least two task objects
+- the field names are consistent between the serializer and the response
+- the learner can explain why this route uses DRF instead of a template

@@ -1,14 +1,16 @@
-"""This example shows the shape of a serializer and API view."""
+"""This example shows how DRF adds a serializer and JSON response layer."""
 
-from rest_framework import serializers
-from rest_framework.views import APIView
-from rest_framework.response import Response
+api_flow = {
+    "model_job": "store the data",
+    "serializer_job": "shape and validate the API data",
+    "view_job": "return the response",
+    "response_format": "JSON",
+}
 
+print("Django REST Framework flow:\n")
 
-class PostSerializer(serializers.Serializer):
-    title = serializers.CharField(max_length=100)
+for step, meaning in api_flow.items():
+    print(f"- {step}: {meaning}")
 
-
-class PostListView(APIView):
-    def get(self, request):
-        return Response([{"title": "First post"}])
+print("\nExample response:")
+print('[{"title": "First post"}]')
