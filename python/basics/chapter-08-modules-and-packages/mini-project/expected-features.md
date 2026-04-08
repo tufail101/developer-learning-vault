@@ -1,7 +1,7 @@
 # Expected Features — Reusable Helpers Folder
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the project has a main file and at least one helper module
+- the helper module contains reusable functions
+- the main file imports and uses those functions successfully
+- the code is more organized than a one-file version
+- the learner can explain the difference between a module and a package
