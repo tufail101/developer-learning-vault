@@ -1,16 +1,19 @@
 # Practice — Introduction To Python
 
 ## Exercise 1
-Create a file named `hello.py` that prints your name and one goal you have for learning Python.
+Create a file named `hello.py`.
+Make it print your name on one line and the text `"I am learning Python"` on the next line.
 
 ## Exercise 2
-Change the text so the script prints three separate lines instead of one.
+Add a third `print()` line that says what you want to build with Python.
+Run the file again and make sure all three lines appear in the terminal.
 
 ## Exercise 3
-Make a tiny welcome script that greets a friend by name and then prints today's study task.
+Create a second file named `welcome.py`.
+Make it print a short welcome message, your study goal for today, and one final line like `"Let’s start."`
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] I created and ran a `.py` file from the terminal
+- [ ] my script prints more than one line in the right order
+- [ ] I know I have to run `python3 filename.py` after changing the file
+- [ ] I understand that the output shows up in the terminal, not the browser

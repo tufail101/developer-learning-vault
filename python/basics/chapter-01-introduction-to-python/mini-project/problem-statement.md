@@ -1,16 +1,18 @@
-# Mini Project — Study Greeting Script
+# Mini Project — First Python Welcome Script
 
 ## What To Build
-Build a very small Python script that greets the learner and prints a short study reminder.
+Build a very small Python script that welcomes you to your Python journey and prints a short study plan for today.
 
 ## What It Should Do
-- print a welcome message
-- print your name or a learner name
+- print a welcome line
+- print your name
 - print one reason you want to learn Python
+- print one study task for today
 
 ## What You Must Use
 - plain `print()` statements
-- a `.py` file you can run from the terminal
+- one `.py` file
+- `python3 filename.py` to run it from the terminal
 
 ## Stretch Goal
-Ask the learner for a goal with `input()` and include it in the final message.
+Add `input()` so the script asks for your name before printing the final welcome message.

@@ -1,5 +1,6 @@
-"""This example shows the smallest possible Python script with a couple of print statements."""
+"""This example shows a first Python script and the top-to-bottom execution order."""
 
-message = "Hello from Python"
-print(message)
-print("Today I ran my first Python file")
+print("Hello from Python")
+print("This line runs second.")
+print("If you change the order of the lines, the output order changes too.")
+print("Run this file with: python3 example.py")

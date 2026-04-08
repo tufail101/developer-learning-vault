@@ -1,15 +1,22 @@
-# Instructions — Study Greeting Script
+# Instructions — First Python Welcome Script
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file such as `welcome.py`.
+2. Add one `print()` line that welcomes you to Python.
+3. Add a second line that prints your name.
+4. Add a third line that prints why you want to learn Python.
+5. Add a fourth line that prints one study task for today.
+6. Run the file with `python3 welcome.py`.
+7. Change one line and run the file again so you can see the updated output.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Write the welcome line first.
+2. Add your name second.
+3. Add your reason for learning third.
+4. Add the study task last.
+
+## What To Check Before You Stop
+
+1. Does the script run without errors?
+2. Do all lines print in the order you expect?
+3. Did you run the file again after editing it?
