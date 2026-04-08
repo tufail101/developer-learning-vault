@@ -1,15 +1,22 @@
 # Instructions — Safe Number Checker
 
-1. Start with the smallest working version of the project.
-2. Set up the main file and make sure it runs before adding extra features.
-3. Add one feature at a time from the checklist below.
-4. Test each step before you move to the next one.
-5. Clean up names and comments so the code stays readable.
+1. Create a file such as `safe_numbers.py`.
+2. Ask the user for the first number with `input()`.
+3. Ask for the second number the same way.
+4. Put the number conversion and addition inside a `try` block.
+5. Catch `ValueError` if either input is not a valid number.
+6. Print the sum when the conversion works.
+7. Print a clear friendly message when it fails.
 
 ## Suggested Build Order
 
-1. Create the base file or app structure.
-2. Add the main feature that proves the idea works.
-3. Add the second and third required features.
-4. Handle one obvious error case or missing input case.
-5. Try the stretch goal only after the main version works.
+1. Get the input lines working first.
+2. Add the number conversion second.
+3. Wrap the risky code in `try` and `except`.
+4. Add the retry stretch goal last.
+
+## What To Check Before You Stop
+
+1. Does the script work with valid numbers?
+2. Does it show a clear message for invalid input?
+3. Did you catch the specific error instead of using a broad bare `except`?

@@ -1,16 +1,18 @@
 # Practice — Error Handling
 
 ## Exercise 1
-Wrap a number conversion in `try` and `except` so bad input prints a friendly message.
+Write a small script that tries to turn a string into an integer.
+Use `try` and `except` so bad input prints a friendly message instead of crashing.
 
 ## Exercise 2
-Handle a missing file error with `FileNotFoundError`.
+Write a script that tries to open a file that does not exist.
+Catch `FileNotFoundError` and print a clear message like `"That file was not found."`
 
 ## Exercise 3
-Add a `finally` block that always prints `Finished` after the script runs.
+Add a `finally` block to one of your scripts so it always prints `"Finished"` at the end, whether an error happened or not.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] I caught `ValueError` for bad number conversion
+- [ ] I caught `FileNotFoundError` for a missing file
+- [ ] I tested at least one failure case on purpose
+- [ ] I understand that `finally` runs either way

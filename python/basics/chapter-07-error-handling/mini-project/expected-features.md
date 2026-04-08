@@ -1,7 +1,7 @@
 # Expected Features — Safe Number Checker
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the script asks for two values from the user
+- valid numbers are converted and added correctly
+- invalid input shows a friendly error message
+- the script uses `try` and `except`
+- the learner can explain why `ValueError` is the right error type here
