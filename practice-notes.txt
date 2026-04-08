@@ -1,0 +1,2 @@
+Read one Python chapter
+Build one tiny example
