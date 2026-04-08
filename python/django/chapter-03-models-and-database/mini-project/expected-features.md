@@ -1,7 +1,8 @@
-# Expected Features — Blog Post Model
+# Expected Features — Blog Post Data Model
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the `Post` model has clearly named fields
+- the model includes title, body, and creation time
+- field types match the kind of data being stored
+- at least one extra field supports real blog behavior
+- the migration commands are written in the correct order
+- another learner could read the model and understand what one blog post record contains

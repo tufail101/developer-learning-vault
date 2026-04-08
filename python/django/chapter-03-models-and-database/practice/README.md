@@ -1,16 +1,31 @@
 # Practice — Models And Database
 
 ## Exercise 1
-Create a model with a title and description field.
+Write a Django model for a `Note`.
+Give it these fields:
+
+- `title`
+- `body`
+- `created_at`
+
+Choose field types that fit each one.
 
 ## Exercise 2
-Add a created date field to the model.
+Add one more useful field to the same model.
+Examples:
+
+- `is_archived`
+- `is_pinned`
+- `updated_at`
+
+Write one line explaining why you chose it.
 
 ## Exercise 3
-Write down the migration commands you would run after changing the model.
+Under your model, write the two commands you would run after changing `models.py`.
+Then write one sentence explaining what each command does.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] my model uses field types that match the data
+- [ ] I can explain why `title` and `body` should not use the same field type by default
+- [ ] I know `makemigrations` creates the change plan
+- [ ] I know `migrate` applies the change to the database
