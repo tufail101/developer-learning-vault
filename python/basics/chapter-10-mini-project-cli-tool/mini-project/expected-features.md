@@ -1,7 +1,8 @@
 # Expected Features — Command Line Study Tracker
 
-- The project runs without syntax errors
-- The main goal of the project is clear from the output or behavior
-- The required chapter concept is visible in the code
-- The project handles at least one basic edge case or missing input case
-- The code is split into readable steps instead of one giant block
+- the tool shows a menu in the terminal
+- the user can add tasks during the run
+- the user can view all saved tasks during the run
+- the user can exit the program cleanly
+- the code is split into small readable functions
+- the learner can explain how loops, functions, input, and lists work together in the tool
