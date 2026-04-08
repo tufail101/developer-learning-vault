@@ -1,16 +1,20 @@
 # Practice — Variables And Data Types
 
 ## Exercise 1
-Create variables for your name, age, and favorite color, then print them.
+Create variables for your name, age, and favorite color.
+Print each one on its own line.
 
 ## Exercise 2
-Make two number variables and print their sum, difference, and product.
+Create two number variables such as `first_number` and `second_number`.
+Print their sum, difference, and product.
 
 ## Exercise 3
-Create a boolean variable like `is_weekend` and print a sentence that includes its value.
+Create a boolean variable like `is_studying_today = True`.
+Print the value.
+Then print `type(is_studying_today)` so you can see that it is a boolean.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] I used clear variable names instead of vague ones like `thing`
+- [ ] my number variables work like numbers, not text
+- [ ] I printed at least one boolean value and checked its type
+- [ ] I can explain the difference between `"24"` and `24`
