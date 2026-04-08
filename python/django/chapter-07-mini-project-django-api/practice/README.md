@@ -1,16 +1,25 @@
-# Practice — Mini Project Django Api
+# Practice — Mini Project Django API
 
 ## Exercise 1
-Choose one resource such as notes or products and write down its fields.
+Choose one resource for your API.
+Use `notes` if you do not want to invent your own.
+Write down three fields that one item should have.
 
 ## Exercise 2
-Sketch the routes you need before writing code.
+Write the first three routes you want:
+
+- one list route
+- one detail route
+- one create route
+
+Use clear paths like `/api/notes/` and `/api/notes/<id>/`.
 
 ## Exercise 3
-Build the list route first and test it before adding create or delete.
+Write one sample JSON object for your resource.
+Then check that the field names match the model and serializer names you plan to use.
 
 ## Done Checklist
-- I completed all three exercises myself
-- I tested the result after each small change
-- I can explain what this chapter is for in plain language
-- I know which part to review if something still feels fuzzy
+- [ ] I picked one small resource instead of trying to model everything
+- [ ] my route list includes list, detail, and create
+- [ ] my sample JSON uses the same field names I plan to use in code
+- [ ] I know the order: model first, serializer second, routes and views after that
